@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2019 The PIVX Developers
+# Copyright (c) 2019 The HELIX Developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 '''
@@ -25,7 +25,7 @@ XCB = 'xcodebuild'
 SOURCE_LANG = 'en.xliff'
 # Directory with locale files
 LOCALE_DIR = 'contrib/transifex'
-PROJ_FILE = 'PivxWallet.xcodeproj'
+PROJ_FILE = 'HelixWallet.xcodeproj'
 
 def check_at_repository_root():
     if not os.path.exists('.git'):

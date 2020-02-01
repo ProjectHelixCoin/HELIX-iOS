@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2019 The PIVX Developers
+# Copyright (c) 2019 The HELIX Developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 '''
@@ -40,7 +40,7 @@ XMS = 'xmlstarlet'
 LOCALE_DIR = 'contrib/transifex'
 SOURCE_XLIFF = LOCALE_DIR + '/en.xcloc/Localized Contents/en.xliff'
 # Project file
-PROJ_FILE = 'PivxWallet.xcodeproj'
+PROJ_FILE = 'HelixWallet.xcodeproj'
 
 
 def check_at_repository_root():

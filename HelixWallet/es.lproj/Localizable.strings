@@ -1,0 +1,649 @@
+/* No comment provided by engineer. */
+" and " = "y";
+
+/* No comment provided by engineer. */
+", " = ", ";
+
+/* No comment provided by engineer. */
+"\"%@\" is not a recovery phrase word" = "\"%@\" no es una palabra de frase de recuperación";
+
+/* No comment provided by engineer. */
+"%@
+
+balance: %@ (%@)" = "%1$@
+
+balance: %2$@ (%3$@)";
+
+/* No comment provided by engineer. */
+"%@ is for 'mPIV'. %@ = 1 PIV." = "%1$@ es para 'mPIV'. %2$@ = 1 PIV.";
+
+/* No comment provided by engineer. */
+"%@ is not allowed to access the camera" = "%@ no tiene permiso para acceder a la cámara";
+
+/* No comment provided by engineer. */
+"%d attempts remaining" = "%d intentos restantes";
+
+/* No comment provided by engineer. */
+"%d confirmations" = "%d confirmaciones";
+
+/* No comment provided by engineer. */
+"0 confirmations" = "0 confirmaciones";
+
+/* No comment provided by engineer. */
+"1 attempt remaining" = "1 intento restante";
+
+/* No comment provided by engineer. */
+"1 confirmation" = "1 confirmación";
+
+/* No comment provided by engineer. */
+"A device passcode is needed to safeguard your wallet. Go to settings and turn passcode on to continue." = "Un código de acceso de dispositivo es necesario para salvaguardar su billetera. Vaya a la configuración y active el código de acceso para continuar.";
+
+/* No comment provided by engineer. */
+"About" = "Acerca de";
+
+/* Address Book */
+"Address Book" = "Directorio";
+
+/* Address: */
+"Address:" = "Dirección:";
+
+/* No comment provided by engineer. */
+"Always require passcode" = "siempre requerir código de acceso";
+
+/* No comment provided by engineer. */
+"Amount %@ (%@)" = "cantidad %1$@ (%2$@)";
+
+/* No comment provided by engineer. */
+"Amount too small" = "cantidad demasiado pequeña";
+
+/* No comment provided by engineer. */
+"Application %@ is requesting a payment to" = "La aplicación %@ está solicitando un pago a";
+
+/* No comment provided by engineer. */
+"Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "La aplicación %@ está solicitando una dirección para que pueda pagarle. ¿Le gustaría autorizar esto?";
+
+/* No comment provided by engineer. */
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your PIV." = "La aplicación %@ desea recibir su clave pública maestra. Esto se puede utilizar para realizar un seguimiento de su billetera, esto no se puede utilizar para mover su PIV.";
+
+/* No comment provided by engineer. */
+"Bad password, try again" = "Contraseña incorrecta, inténtalo de nuevo";
+
+/* No comment provided by engineer. */
+"Bad payment request" = "mala solicitud de pago";
+
+/* No comment provided by engineer. */
+"bad payment request URL" = "mal URL de solicitud de pago";
+
+/* No comment provided by engineer. */
+"bad payment URL" = "mala URL de pago";
+
+/* No comment provided by engineer. */
+"Bad recovery phrase" = "frase de recuperación incorrecta";
+
+/* No comment provided by engineer. */
+"Bitcoin address (shapeshift)" = "Dirección de Bitcoin (shapeshift)";
+
+/* No comment provided by engineer. */
+"block #%d of %d" = "bloque #%1$d de %2$d";
+
+/* No comment provided by engineer. */
+"Buy PIV" = "Comprar PIV";
+
+/* No comment provided by engineer. */
+"Buy PIV in HELIXwallet!" = "¡Compra PIV en la HELIXwallet!";
+
+/* Cancel */
+"Cancel" = "Cancelar";
+
+/* No comment provided by engineer. */
+"Change" = "cadáver";
+
+/* No comment provided by engineer. */
+"Change passcode" = "Cambiar Código de acceso";
+
+/* No comment provided by engineer. */
+"Change payment amount?" = "¿cambiar el monto del pago?";
+
+/* No comment provided by engineer. */
+"Checking address balance..." = "verificando saldo de la dirección...";
+
+/* No comment provided by engineer. */
+"Checking private key balance..." = "verificando el balance de clave privada...";
+
+/* No comment provided by engineer. */
+"Choose passcode for %@" = "Escoger código de acceso para %@";
+
+/* No comment provided by engineer. */
+"Clear" = "limpiar";
+
+/* No comment provided by engineer. */
+"Clear trusted node?" = "¿limpiar nodo confiable?";
+
+/* No comment provided by engineer. */
+"Clipboard doesn't contain a valid HELIX address" = "portapapeles no contiene una dirección HELIX válida";
+
+/* No comment provided by engineer. */
+"Close app" = "Cerrar app";
+
+/* Confirm */
+"Confirm" = "Confirmar";
+
+/* No comment provided by engineer. */
+"confirmed in block #%d" = "confirmado en el bloque #%d";
+
+/* No comment provided by engineer. */
+"Connect timeout" = "Tiempo de espera de conexión agotado";
+
+/* No comment provided by engineer. */
+"copied" = "copiado";
+
+/* No comment provided by engineer. */
+"Copied" = "copiado";
+
+/* No comment provided by engineer. */
+"Copy" = "copiar";
+
+/* No comment provided by engineer. */
+"Copy address to clipboard" = "copiar la dirección al portapapeles";
+
+/* No comment provided by engineer. */
+"Copy request to clipboard" = "copiar solicitud al portapapeles";
+
+/* No comment provided by engineer. */
+"Copy wallet addresses to clipboard?" = "¿copiar las direcciones de la billetera al portapapeles?";
+
+/* No comment provided by engineer. */
+"Couldn't check address balance" = "no se pudo verificar el saldo de la dirección";
+
+/* No comment provided by engineer. */
+"Couldn't make payment" = "no se pudo hacer el pago";
+
+/* No comment provided by engineer. */
+"Couldn't sweep balance" = "no se pudo hacer el sweep";
+
+/* No comment provided by engineer. */
+"Couldn't transmit payment to the HELIX network" = "No se pudo transmitir el pago a la red HELIX";
+
+/* No comment provided by engineer. */
+"Create recovery phrase" = "Crear frase de recuperación";
+
+/* Description: */
+"Description:" = "Descripción:";
+
+/* No comment provided by engineer. */
+"Do it later" = "hazlo después";
+
+/* No comment provided by engineer. */
+"DO NOT let anyone see your recovery phrase or they can spend your PIV." = "NO permitas que nadie vea tu frase de recuperación o podrán gastar tu HELIX.";
+
+/* No comment provided by engineer. */
+"DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "NO tome una captura de pantalla. Las capturas de pantalla son visibles para otras aplicaciones y dispositivos.";
+
+/* No comment provided by engineer. */
+"Done" = "hecho";
+
+/* No comment provided by engineer. */
+"double spend" = "doble gasto";
+
+/* No comment provided by engineer. */
+"Double spend" = "doble gasto";
+
+/* No comment provided by engineer. */
+"Email not configured" = "correo electrónico no configurado";
+
+/* No comment provided by engineer. */
+"Enable" = "edificio";
+
+/* No comment provided by engineer. */
+"Enable receive notifications" = "Habilitar recibir notificaciones";
+
+/* No comment provided by engineer. */
+"Enter" = "emitir";
+
+/* No comment provided by engineer. */
+"Enter old passcode" = "Ingrese el código de acceso anterior";
+
+/* No comment provided by engineer. */
+"Error signing HELIX transaction" = "error al firmar la transacción HELIX";
+
+/* No comment provided by engineer. */
+"Error signing transaction" = "Error firmando transacción";
+
+/* No comment provided by engineer. */
+"Exit" = "salir";
+
+/* No comment provided by engineer. */
+"Failed wallet update" = "Actualización de la billetera fallida";
+
+/* No comment provided by engineer. */
+"from:" = "desde:";
+
+/* No comment provided by engineer. */
+"hour" = "hora";
+
+/* No comment provided by engineer. */
+"hours" = "horas";
+
+/* No comment provided by engineer. */
+"id:" = "id:";
+
+/* No comment provided by engineer. */
+"If you still would like to wipe it please input : \"I accept that I will lose my coins if I no longer possess the recovery phrase\"" = "Si aún desea borrarlo, por favor ingrese: \"Acepto que perderé mis monedas si no poseo la frase de recuperación\"";
+
+/* No comment provided by engineer. */
+"Ignore" = "ignorar";
+
+/* No comment provided by engineer. */
+"Import private key" = "importar clave privada";
+
+/* No comment provided by engineer. */
+"IMPORTANT" = "IMPORTANTE";
+
+/* No comment provided by engineer. */
+"Insufficient funds" = "fondos insuficientes";
+
+/* No comment provided by engineer. */
+"Insufficient funds for HELIX network fee" = "fondos insuficientes para la comisión de red HELIX";
+
+/* No comment provided by engineer. */
+"INVALID" = "INVÁLIDO";
+
+/* No comment provided by engineer. */
+"Let others scan this QR code to get your HELIX address. Anyone can send PIV to your wallet by transferring them to your address." = "Permita que otros escaneen este código QR para obtener su dirección HELIX. Cualquiera puede enviar PIV a su billetera transfiriéndolas a su dirección.";
+
+/* No comment provided by engineer. */
+"Local Currency" = "Moneda Local";
+
+/* No comment provided by engineer. */
+"minute" = "minuto";
+
+/* No comment provided by engineer. */
+"minutes" = "minutos";
+
+/* No comment provided by engineer. */
+"missing certificate" = "certificado faltante";
+
+/* No comment provided by engineer. */
+"more..." = "más...";
+
+/* No comment provided by engineer. */
+"moved" = "movido";
+
+/* Name: */
+"Name:" = "Nombre:";
+
+/* No comment provided by engineer. */
+"Network fee +%@ (%@)" = "Comisión de red +%1$@ (%2$@)";
+
+/* No comment provided by engineer. */
+"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected." = "NUNCA escriba su frase de recuperación en administradores de contraseñas o en otra parte. Otros dispositivos pueden estar infectados.";
+
+/* No comment provided by engineer. */
+"next, write down your recovery phrase" = "Luego, escribe tu frase de recuperación";
+
+/* No comment provided by engineer. */
+"No exchange rate data" = "Sin datos de tasa de cambio";
+
+/* No comment provided by engineer. */
+"No peers found" = "No conexiones encontradas";
+
+/* No comment provided by engineer. */
+"NO TRANSACTIONS" = "SIN TRANSACCIONES";
+
+/* No comment provided by engineer. */
+"Not a HELIX QR code" = "No es un código QR helix";
+
+/* No comment provided by engineer. */
+"not a valid bitcoin address" = "no es una dirección de bitcoin válida";
+
+/* No comment provided by engineer. */
+"Not a valid HELIX address" = "no es una dirección HELIX válida";
+
+/* No comment provided by engineer. */
+"Not a valid private key" = "No es una clave privada válida";
+
+/* Not connected */
+"Not connected" = "No conectado";
+
+/* No comment provided by engineer. */
+"Not connected to the HELIX network" = "no conectado a la red HELIX";
+
+/* OK */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"Passcode" = "código de acceso";
+
+/* No comment provided by engineer. */
+"Passcode for %@" = "código de acceso para %@";
+
+/* No comment provided by engineer. */
+"password" = "contraseña";
+
+/* No comment provided by engineer. */
+"Password protected key" = "Clave protegida por contraseña";
+
+/* No comment provided by engineer. */
+"Pay" = "Pagar";
+
+/* No comment provided by engineer. */
+"Payee identity isn't certified" = "Identidad payee no está certificada";
+
+/* No comment provided by engineer. */
+"payment address" = "dirección de pago";
+
+/* No comment provided by engineer. */
+"payment output" = "salida de pago";
+
+/* No comment provided by engineer. */
+"pending" = "pendiente";
+
+/* No comment provided by engineer. */
+"HELIX address" = "Dirección HELIX";
+
+/* No comment provided by engineer. */
+"HELIX addresses can also be copied to the clipboard. A HELIX address always starts with 'D' or '6'." = "Las direcciones HELIX también se pueden copiar en el portapapeles. Una dirección HELIX siempre comienza con 'D' o '6'.";
+
+/* No comment provided by engineer. */
+"HELIX network fee" = "Comisión de red HELIX";
+
+/* No comment provided by engineer. */
+"HELIX payments can't be less than %@" = "Los pagos HELIX no pueden ser inferiores a %@";
+
+/* No comment provided by engineer. */
+"HELIX transaction not signed" = "Transacción HELIX no firmada";
+
+/* No comment provided by engineer. */
+"HELIX transaction outputs can't be less than %@" = "Las salidas de las transacciones HELIX no pueden ser inferiores a %@";
+
+/* No comment provided by engineer. */
+"Please enter PIN to upgrade wallet" = "Por favor ingrese el PIN para actualizar la billetera";
+
+/* No comment provided by engineer. */
+"RECEIVE" = "RECIBIR";
+
+/* No comment provided by engineer. */
+"Receive PIV at this address: %@" = "Recibe PIV en esta dirección: %@";
+
+/* No comment provided by engineer. */
+"received" = "recibido";
+
+/* No comment provided by engineer. */
+"Received" = "recibido";
+
+/* No comment provided by engineer. */
+"received %@ (%@)" = "recibido %1$@ (%2$@)";
+
+/* No comment provided by engineer. */
+"Received %@ (%@)" = "recibido %1$@ (%2$@)";
+
+/* Recovery phrase */
+"Recovery phrase" = "Frase de recuperación";
+
+/* No comment provided by engineer. */
+"Recovery Phrase" = "Frase de recuperación";
+
+/* No comment provided by engineer. */
+"Recovery phrase doesn't match" = "frase de recuperación no coincide";
+
+/* No comment provided by engineer. */
+"Recovery phrase must have %d words" = "frase de recuperación debe tener %d palabras";
+
+/* No comment provided by engineer. */
+"Request" = "Solicitud";
+
+/* No comment provided by engineer. */
+"Request an amount" = "solicitar una cantidad";
+
+/* No comment provided by engineer. */
+"request expired" = "solicitud caducada";
+
+/* No comment provided by engineer. */
+"Request expired" = "solicitud caducada";
+
+/* No comment provided by engineer. */
+"requested network \"%@\" instead of \"%@\"" = "red solicitada \"%1$@\" en lugar de \"%2$@\"";
+
+/* No comment provided by engineer. */
+"Rescan" = "volver a escanear";
+
+/* No comment provided by engineer. */
+"Rescan blockchain" = "Reescanear blockchain";
+
+/* No comment provided by engineer. */
+"Rescan blockchain if you think you may have missing transactions, or are having trouble sending (rescanning can take several minutes)" = "reescanea la blockchain si cree que puede haber transacciones faltantes, o tiene problemas para enviar (el escaneo puede tomar varios minutos)";
+
+/* No comment provided by engineer. */
+"Reset" = "reiniciar";
+
+/* No comment provided by engineer. */
+"restore" = "restaurar";
+
+/* No comment provided by engineer. */
+"Retry" = "volver a intentar";
+
+/* No comment provided by engineer. */
+"Scan someone else's QR code to get their HELIX address. You can send a payment to anyone with an address." = "Escanee el código QR de otra persona para obtener su dirección HELIX. Puede enviar un pago a cualquier persona con una dirección.";
+
+/* No comment provided by engineer. */
+"Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "Las capturas de pantalla son visibles para otras aplicaciones y dispositivos. Genere una nueva frase de recuperación y manténgala en secreto.";
+
+/* No comment provided by engineer. */
+"Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "Las capturas de pantalla son visibles para otras aplicaciones y dispositivos. Sus fondos están en riesgo. Transfiera su saldo a otra wallet.";
+
+/* No comment provided by engineer. */
+"second" = "segundo";
+
+/* No comment provided by engineer. */
+"seconds" = "segundos";
+
+/* No comment provided by engineer. */
+"seen by %d of %d peers" = "visto por %1$d de %2$dfuentes";
+
+/* No comment provided by engineer. */
+"Send" = "enviar";
+
+/* No comment provided by engineer. */
+"SEND" = "ENVIAR";
+
+/* No comment provided by engineer. */
+"Send %@ (%@) from this private key into your wallet? The HELIX network will receive a fee of %@ (%@)." = "¿Enviar %1$@ (%2$@) desde esta clave privada a su billetera? La red HELIX recibirá una comisión de %3$@ (%4$@).";
+
+/* No comment provided by engineer. */
+"Send address as email" = "enviar dirección como correo electrónico";
+
+/* No comment provided by engineer. */
+"Send address as message" = "enviar dirección como mensaje";
+
+/* No comment provided by engineer. */
+"Send request as email" = "enviar solicitud como correo electrónico";
+
+/* No comment provided by engineer. */
+"Send request as message" = "enviar solicitud como mensaje";
+
+/* No comment provided by engineer. */
+"sent" = "enviado";
+
+/* No comment provided by engineer. */
+"Sent!" = "¡Enviado!";
+
+/* No comment provided by engineer. */
+"Set a trusted node" = "Establecer un nodo de confianza";
+
+/* No comment provided by engineer. */
+"Settings" = "Configuraciones";
+
+/* No comment provided by engineer. */
+"shapeshift bitcoin id:" = "shapeshift bitcoin id:";
+
+/* No comment provided by engineer. */
+"Shapeshift failed" = "Shapeshift fallido";
+
+/* No comment provided by engineer. */
+"shapeshift status:" = "estado shapeshift:";
+
+/* No comment provided by engineer. */
+"Show" = "Mostrar";
+
+/* No comment provided by engineer. */
+"show phrase" = "mostrar frase";
+
+/* No comment provided by engineer. */
+"Show phrase" = "mostrar frase";
+
+/* No comment provided by engineer. */
+"SMS not currently available" = "SMS no disponible actualmente";
+
+/* No comment provided by engineer. */
+"spent address" = "dirección de gasto";
+
+/* No comment provided by engineer. */
+"spent input" = "entrada del gasto";
+
+/* No comment provided by engineer. */
+"Starting Shapeshift!" = "Comenzando Shapeshift!";
+
+/* No comment provided by engineer. */
+"status:" = "estado:";
+
+/* No comment provided by engineer. */
+"Swept!" = "¡Swept!";
+
+/* Synced */
+"Synced" = "Sincronizado";
+
+/* No comment provided by engineer. */
+"Syncing:" = "Sincronizando:";
+
+/* No comment provided by engineer. */
+"The amount you wanted to shapeshift is too high, please input a value under %@" = "La cantidad que quería shapeshift es muy alta, por favor ingrese un valor inferior a %@";
+
+/* No comment provided by engineer. */
+"The amount you wanted to shapeshift is too low, please input a value over %@" = "La cantidad que deseas es muy baja para shapeshift, por favor ingrese un valor arriba de %@";
+
+/* No comment provided by engineer. */
+"The app will now close" = "la aplicación se cerrará ahora";
+
+/* No comment provided by engineer. */
+"This is your HELIX balance." = "Este es tu balance en HELIX.";
+
+/* No comment provided by engineer. */
+"This is your HELIX balance. HELIX is a currency. The exchange rate changes with the market." = "Este es tu balance HELIX. HELIX es una moneda. La tasa de cambio cambia con el mercado.";
+
+/* No comment provided by engineer. */
+"This payment address is already in your wallet" = "ésta dirección de pago ya está en su billetera";
+
+/* No comment provided by engineer. */
+"This private key is already in your wallet" = "Ésta clave privada ya está en su billetera";
+
+/* No comment provided by engineer. */
+"This private key is empty" = "Ésta clave privada está vacía";
+
+/* No comment provided by engineer. */
+"This wallet is not empty or sync has not finished, you may not wipe it without the recovery phrase" = "Esta billetera no está vacía o la sincronización no ha terminado, no puede borrarla sin la frase de recuperación";
+
+/* No comment provided by engineer. */
+"to:" = "a:";
+
+/* No comment provided by engineer. */
+"to: %@" = "a: %@";
+
+/* No comment provided by engineer. */
+"to: %@ (via Shapeshift)" = "a: %@ (a través de Shapeshift)";
+
+/* No comment provided by engineer. */
+"Total %@ (%@)" = "Total %1$@ (%2$@)";
+
+/* No comment provided by engineer. */
+"Touch ID limit" = "Límite de identificación táctil";
+
+/* No comment provided by engineer. */
+"Touch ID spending limit" = "límite de gastos de identificación táctil";
+
+/* No comment provided by engineer. */
+"Transaction canceled, network timeout" = "transacción cancelada, tiempo de espera de la red agotado";
+
+/* No comment provided by engineer. */
+"Transaction history" = "Historial de transacciones";
+
+/* No comment provided by engineer. */
+"Transaction Rejected" = "transacción rechazada";
+
+/* No comment provided by engineer. */
+"Trust" = "confianza";
+
+/* No comment provided by engineer. */
+"try again in %@" = "intenta de nuevo en %@";
+
+/* No comment provided by engineer. */
+"try again in %d %@" = "intenta de nuevo en %1$d %2$@";
+
+/* No comment provided by engineer. */
+"Try It!" = "¡Intentalo!";
+
+/* No comment provided by engineer. */
+"Turn device passcode on" = "activar el código de acceso del dispositivo";
+
+/* No comment provided by engineer. */
+"Unable to get new qr code" = "No se puede obtener el nuevo código QR";
+
+/* No comment provided by engineer. */
+"unexpected response from %@" = "respuesta inesperada de %@";
+
+/* No comment provided by engineer. */
+"Unexpected response from %@" = "respuesta inesperada de %@";
+
+/* No comment provided by engineer. */
+"unknown address" = "dirección desconocida";
+
+/* No comment provided by engineer. */
+"Unrecognized address" = "dirección no reconocida";
+
+/* No comment provided by engineer. */
+"Unsupported or corrupted document" = "documento no compatible o dañado";
+
+/* No comment provided by engineer. */
+"unsupported signature type" = "tipo de firma no compatible";
+
+/* No comment provided by engineer. */
+"Unsupported URL" = "URL no soportado";
+
+/* No comment provided by engineer. */
+"untrusted certificate" = "certificado no confiable";
+
+/* No comment provided by engineer. */
+"unverified" = "no verificado";
+
+/* Updating Price */
+"Updating Price" = "Actualizando precio";
+
+/* No comment provided by engineer. */
+"verified, waiting for confirmation" = "verificado, esperando confirmación";
+
+/* No comment provided by engineer. */
+"Verify passcode" = "Verificar el código de acceso";
+
+/* No comment provided by engineer. */
+"wallet address" = "dirección de la wallet";
+
+/* No comment provided by engineer. */
+"Wallet Disabled" = "billetera deshabilitada";
+
+/* No comment provided by engineer. */
+"WARNING" = "ADVERTENCIA";
+
+/* No comment provided by engineer. */
+"Wipe" = "limpiar";
+
+/* No comment provided by engineer. */
+"WRITE DOWN YOUR RECOVERY PHRASE" = "ESCRIBA SU FRASE DE RECUPERACIÓN";
+
+/* No comment provided by engineer. */
+"You can now buy PIV in HELIXwallet with cash or bank transfer." = "Ahora puedes comprar PIV en HELIXwallet con efectivo o transferencia bancaria.";
+
+/* No comment provided by engineer. */
+"You received PIV!" = "¡Has recibido HELIX!";
+
+/* No comment provided by engineer. */
+"Your wallet may be out of sync. This can often be fixed by rescanning the blockchain." = "Su billetera puede estar fuera de sincronización. Esto a menudo se puede arreglar al volver a escanear la cadena de bloques.";
+
