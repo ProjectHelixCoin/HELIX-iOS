@@ -78,8 +78,8 @@ coinmarketcap.com";
 "JUG-Wq-6Lr.text" = "Séparation depuis le portefeuille.
 Cette application est ouverte source:";
 
-/* Class = "UILabel"; text = "SEND PIV"; ObjectID = "l5l-JR-LKA"; */
-"l5l-JR-LKA.text" = "ENVOYER PIV";
+/* Class = "UILabel"; text = "SEND HLIX"; ObjectID = "l5l-JR-LKA"; */
+"l5l-JR-LKA.text" = "ENVOYER HLIX";
 
 /* Class = "UILabel"; text = "SwiftX"; ObjectID = "lbm-03-nu4"; */
 "lbm-03-nu4.text" = "SwiftX";
@@ -93,8 +93,8 @@ Cette application est ouverte source:";
 /* Class = "UINavigationItem"; title = "Phrase"; ObjectID = "pSA-60-Zeg"; */
 "pSA-60-Zeg.title" = "Phrase";
 
-/* Class = "UILabel"; text = "Receive PIV"; ObjectID = "qel-3J-2VC"; */
-"qel-3J-2VC.text" = "Recevoir des PIV";
+/* Class = "UILabel"; text = "Receive HLIX"; ObjectID = "qel-3J-2VC"; */
+"qel-3J-2VC.text" = "Recevoir des HLIX";
 
 /* Class = "UIBarButtonItem"; title = "Remind me later"; ObjectID = "QQS-Me-RNh"; */
 "QQS-Me-RNh.title" = "Rappelez-moi plus tard";

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -42,8 +40,7 @@
                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                             <attributedString key="userComments">
-                                <fragment content="#bc-ignore!">
-                                </fragment>
+                                <fragment content="#bc-ignore!"/>
                             </attributedString>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="textLabelSync" text="Synced" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hhq-Fd-PGv">
@@ -53,12 +50,11 @@
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                             <attributedString key="userComments">
-                                <fragment content="#bc-ignore!">
-                                </fragment>
+                                <fragment content="#bc-ignore!"/>
                             </attributedString>
                         </label>
                     </subviews>
-                    <color key="backgroundColor" red="0.33333333329999998" green="0.2784313725" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="aYD-BY-uRC" firstAttribute="top" secondItem="2d2-8G-1qi" secondAttribute="top" constant="45" id="6Ls-uu-9C9"/>
                         <constraint firstAttribute="height" constant="130" id="LKa-Iq-shb"/>
@@ -94,6 +90,9 @@
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHk-Im-1CE">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                                    <state key="normal">
+                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="tappedMyWalletButton:" destination="-1" eventType="touchUpInside" id="Aam-HI-2ws"/>
                                                     </connections>
@@ -130,6 +129,9 @@
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1GU-8f-85z">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                                    <state key="normal">
+                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="tappedAddressBookButton:" destination="-1" eventType="touchUpInside" id="bD3-Lc-3Zk"/>
                                                     </connections>
@@ -166,6 +168,9 @@
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9MJ-hY-ZBY">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                                    <state key="normal">
+                                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
                                                     <connections>
                                                         <action selector="tappedSettingButton:" destination="-1" eventType="touchUpInside" id="sDC-6g-wcr"/>
                                                     </connections>
@@ -200,8 +205,7 @@
                                                     <color key="textColor" red="0.42352941179999998" green="0.42352941179999998" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <attributedString key="userComments">
-                                                        <fragment content="#bc-ignore!">
-                                                        </fragment>
+                                                        <fragment content="#bc-ignore!"/>
                                                     </attributedString>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aTH-oo-ifK">
@@ -242,8 +246,7 @@
                                     <color key="textColor" red="0.42352941176470588" green="0.42352941176470588" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <nil key="highlightedColor"/>
                                     <attributedString key="userComments">
-                                        <fragment content="#bc-ignore!">
-                                        </fragment>
+                                        <fragment content="#bc-ignore!"/>
                                     </attributedString>
                                 </label>
                             </subviews>
@@ -286,8 +289,8 @@
         <image name="icAddress" width="22" height="28"/>
         <image name="icDonations" width="28" height="23"/>
         <image name="icSettings" width="26" height="26"/>
-        <image name="icWallet" width="26" height="26"/>
-        <image name="imgHeaderLogo" width="102" height="29"/>
-        <image name="imgNavLogo" width="73" height="90"/>
+        <image name="icWallet" width="26.5" height="26.5"/>
+        <image name="imgHeaderLogo" width="102.5" height="29"/>
+        <image name="imgNavLogo" width="73.5" height="90.5"/>
     </resources>
 </document>

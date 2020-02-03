@@ -48,10 +48,10 @@ saldo:%2$@ (%3$@)";
 "Bitcoin address (shapeshift)" = "Bitcoin adres (shapeshift)";
 
 /* No comment provided by engineer. */
-"Buy PIV" = "Kup PIV";
+"Buy HLIX" = "Kup HLIX";
 
 /* No comment provided by engineer. */
-"Buy PIV in HELIXwallet!" = "Kup PIV w HELIXwallet!";
+"Buy HLIX in HELIXwallet!" = "Kup HLIX w HELIXwallet!";
 
 /* Confirm */
 "Confirm" = "Potwierdź";
@@ -72,7 +72,7 @@ saldo:%2$@ (%3$@)";
 "INVALID" = "NIEWAŻNE";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your HELIX address. Anyone can send PIV to your wallet by transferring them to your address." = "Pozwól innym skanować ten kod QR, aby uzyskać adres HELIX. Każdy może wysłać PIV do twojego portfela, przenosząc go na twój adres.";
+"Let others scan this QR code to get your HELIX address. Anyone can send HLIX to your wallet by transferring them to your address." = "Pozwól innym skanować ten kod QR, aby uzyskać adres HELIX. Każdy może wysłać HLIX do twojego portfela, przenosząc go na twój adres.";
 
 /* No comment provided by engineer. */
 "Local Currency" = "Lokalna waluta";
@@ -99,7 +99,7 @@ saldo:%2$@ (%3$@)";
 "HELIX transaction outputs can't be less than %@" = "Wyjściowe transakcje HELIX nie mogą być mniejsze niż %@";
 
 /* No comment provided by engineer. */
-"Receive PIV at this address: %@" = "Odbierz PIV pod tym adresem: %@";
+"Receive HLIX at this address: %@" = "Odbierz HLIX pod tym adresem: %@";
 
 /* Recovery phrase */
 "Recovery phrase" = "fraza odzyskiwania";

@@ -88,11 +88,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    UIColor *color = [UIColor rgb:85 green:71 blue:108 alpha:1];
+    UIColor *color = [UIColor rgb:0 green:0 blue:0 alpha:1];
     [Utils changeStatusBackgroundColorWithColor:color];
     self.doneButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Done", nil)
                        style:UIBarButtonItemStylePlain target:self action:@selector(done:)];
-    self.doneButton.tintColor = [UIColor rgb:85 green:71 blue:108 alpha:1];
+    self.doneButton.tintColor = [UIColor rgb:0 green:0 blue:0 alpha:1];
     
     
 #if DEBUG

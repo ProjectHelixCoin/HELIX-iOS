@@ -1414,6 +1414,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				es,
@@ -1941,7 +1942,7 @@
 				CLANG_WARN_COMMA = NO;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = helixwallet/helixwallet.entitlements;
-				DEVELOPMENT_TEAM = 44RJ69WHFF;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				INFOPLIST_FILE = DashWalletUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1963,7 +1964,7 @@
 				CLANG_WARN_COMMA = NO;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = helixwallet/helixwallet.entitlements;
-				DEVELOPMENT_TEAM = 44RJ69WHFF;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				INFOPLIST_FILE = DashWalletUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -2110,7 +2111,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_COMMA = NO;
 				CODE_SIGN_ENTITLEMENTS = helixwallet/helixwallet.entitlements;
-				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelixWallet/HelixWallet-Prefix.pch";
@@ -2124,7 +2125,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_SWIFT_FLAGS[arch=*]" = "-DDebug";
-				PRODUCT_BUNDLE_IDENTIFIER = camera.furszy.helixwallet;
+				PRODUCT_BUNDLE_IDENTIFIER = helixos;
 				PRODUCT_MODULE_NAME = helixwallet;
 				PRODUCT_NAME = HELIX;
 				SWIFT_OBJC_BRIDGING_HEADER = "HelixWallet/helixwallet-Bridging-Header.h";
@@ -2147,7 +2148,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_COMMA = NO;
 				CODE_SIGN_ENTITLEMENTS = helixwallet/helixwallet.entitlements;
-				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				ENABLE_TESTABILITY = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2161,7 +2162,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/HelixWallet/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = camera.furszy.helixwallet;
+				PRODUCT_BUNDLE_IDENTIFIER = helixos;
 				PRODUCT_MODULE_NAME = helixwallet;
 				PRODUCT_NAME = HELIX;
 				SWIFT_OBJC_BRIDGING_HEADER = "HelixWallet/helixwallet-Bridging-Header.h";
@@ -2179,7 +2180,7 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/helixwallet.app/helixwallet";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_COMMA = NO;
-				DEVELOPMENT_TEAM = 44RJ69WHFF;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DashWallet/DashWallet-Prefix.pch";
 				GCC_WARN_PEDANTIC = NO;
@@ -2203,7 +2204,7 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/helixwallet.app/helixwallet";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_COMMA = NO;
-				DEVELOPMENT_TEAM = 44RJ69WHFF;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DashWallet/DashWallet-Prefix.pch";
 				GCC_WARN_PEDANTIC = NO;
@@ -2226,11 +2227,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_COMMA = NO;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				IBSC_MODULE = WatchApp_Extension;
 				INFOPLIST_FILE = WatchApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_BUNDLE_IDENTIFIER = camera.furszy.helixwallet.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = helixos.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -2249,11 +2250,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_COMMA = NO;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				IBSC_MODULE = WatchApp_Extension;
 				INFOPLIST_FILE = WatchApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_BUNDLE_IDENTIFIER = camera.furszy.helixwallet.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = helixos.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -2270,12 +2271,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_COMMA = NO;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = camera.furszy.helixwallet.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = helixos.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -2294,11 +2295,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_COMMA = NO;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = camera.furszy.helixwallet.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = helixos.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -2318,7 +2319,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = helixwallet/helixwallet.entitlements;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2331,7 +2332,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = camera.furszy.helixwallet.TodayExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = helixos.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -2350,7 +2351,7 @@
 				CODE_SIGN_ENTITLEMENTS = helixwallet/helixwallet.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -2359,7 +2360,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = camera.furszy.helixwallet.TodayExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = helixos.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -2430,7 +2431,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_COMMA = NO;
 				CODE_SIGN_ENTITLEMENTS = helixwallet/helixwallet.entitlements;
-				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelixWallet/HelixWallet-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "TESTFLIGHT=1";
@@ -2444,7 +2445,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-DTestflight";
-				PRODUCT_BUNDLE_IDENTIFIER = camera.furszy.helixwallet;
+				PRODUCT_BUNDLE_IDENTIFIER = helixos;
 				PRODUCT_MODULE_NAME = helixwallet;
 				PRODUCT_NAME = HELIX;
 				SWIFT_OBJC_BRIDGING_HEADER = "HelixWallet/helixwallet-Bridging-Header.h";
@@ -2464,7 +2465,7 @@
 				CODE_SIGN_ENTITLEMENTS = helixwallet/helixwallet.entitlements;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -2473,7 +2474,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = camera.furszy.helixwallet.TodayExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = helixos.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -2489,7 +2490,7 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/helixwallet.app/helixwallet";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_COMMA = NO;
-				DEVELOPMENT_TEAM = 44RJ69WHFF;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DashWallet/DashWallet-Prefix.pch";
 				GCC_WARN_PEDANTIC = NO;
@@ -2512,7 +2513,7 @@
 				CLANG_WARN_COMMA = NO;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = helixwallet/helixwallet.entitlements;
-				DEVELOPMENT_TEAM = 44RJ69WHFF;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				INFOPLIST_FILE = DashWalletUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -2540,11 +2541,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_COMMA = NO;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				IBSC_MODULE = WatchApp_Extension;
 				INFOPLIST_FILE = WatchApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_BUNDLE_IDENTIFIER = camera.furszy.helixwallet.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = helixos.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -2561,11 +2562,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_COMMA = NO;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = camera.furszy.helixwallet.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = helixos.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -2645,7 +2646,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_COMMA = NO;
 				CODE_SIGN_ENTITLEMENTS = helixwallet/helixwallet.entitlements;
-				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelixWallet/HelixWallet-Prefix.pch";
@@ -2664,7 +2665,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_SWIFT_FLAGS[arch=*]" = "-DDebug -DDASH_TESTNET";
-				PRODUCT_BUNDLE_IDENTIFIER = camera.furszy.helixwallet;
+				PRODUCT_BUNDLE_IDENTIFIER = helixos;
 				PRODUCT_MODULE_NAME = helixwallet;
 				PRODUCT_NAME = "HELIX-Testnet";
 				SWIFT_OBJC_BRIDGING_HEADER = "HelixWallet/helixwallet-Bridging-Header.h";
@@ -2684,7 +2685,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = helixwallet/helixwallet.entitlements;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -2697,7 +2698,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = camera.furszy.helixwallet.TodayExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = helixos.TodayExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
@@ -2714,7 +2715,7 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/helixwallet.app/helixwallet";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_COMMA = NO;
-				DEVELOPMENT_TEAM = 44RJ69WHFF;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DashWallet/DashWallet-Prefix.pch";
 				GCC_WARN_PEDANTIC = NO;
@@ -2738,7 +2739,7 @@
 				CLANG_WARN_COMMA = NO;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = helixwallet/helixwallet.entitlements;
-				DEVELOPMENT_TEAM = 44RJ69WHFF;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				INFOPLIST_FILE = DashWalletUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -2767,11 +2768,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_WARN_COMMA = NO;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				IBSC_MODULE = WatchApp_Extension;
 				INFOPLIST_FILE = WatchApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_BUNDLE_IDENTIFIER = camera.furszy.helixwallet.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = helixos.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -2789,12 +2790,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_COMMA = NO;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				DEVELOPMENT_TEAM = 99K9TZS9X5;
+				DEVELOPMENT_TEAM = 3Q84PC48CK;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = camera.furszy.helixwallet.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = helixos.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;

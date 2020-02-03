@@ -15,7 +15,7 @@ balance: %@ (%@)" = "%1$@
 balance: %2$@ (%3$@)";
 
 /* No comment provided by engineer. */
-"%@ is for 'mPIV'. %@ = 1 PIV." = "%1$@ es para 'mPIV'. %2$@ = 1 PIV.";
+"%@ is for 'mHLIX'. %@ = 1 HLIX." = "%1$@ es para 'mHLIX'. %2$@ = 1 HLIX.";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ no tiene permiso para acceder a la cámara";
@@ -63,7 +63,7 @@ balance: %2$@ (%3$@)";
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "La aplicación %@ está solicitando una dirección para que pueda pagarle. ¿Le gustaría autorizar esto?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your PIV." = "La aplicación %@ desea recibir su clave pública maestra. Esto se puede utilizar para realizar un seguimiento de su billetera, esto no se puede utilizar para mover su PIV.";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your HLIX." = "La aplicación %@ desea recibir su clave pública maestra. Esto se puede utilizar para realizar un seguimiento de su billetera, esto no se puede utilizar para mover su HLIX.";
 
 /* No comment provided by engineer. */
 "Bad password, try again" = "Contraseña incorrecta, inténtalo de nuevo";
@@ -87,10 +87,10 @@ balance: %2$@ (%3$@)";
 "block #%d of %d" = "bloque #%1$d de %2$d";
 
 /* No comment provided by engineer. */
-"Buy PIV" = "Comprar PIV";
+"Buy HLIX" = "Comprar HLIX";
 
 /* No comment provided by engineer. */
-"Buy PIV in HELIXwallet!" = "¡Compra PIV en la HELIXwallet!";
+"Buy HLIX in HELIXwallet!" = "¡Compra HLIX en la HELIXwallet!";
 
 /* Cancel */
 "Cancel" = "Cancelar";
@@ -174,7 +174,7 @@ balance: %2$@ (%3$@)";
 "Do it later" = "hazlo después";
 
 /* No comment provided by engineer. */
-"DO NOT let anyone see your recovery phrase or they can spend your PIV." = "NO permitas que nadie vea tu frase de recuperación o podrán gastar tu HELIX.";
+"DO NOT let anyone see your recovery phrase or they can spend your HLIX." = "NO permitas que nadie vea tu frase de recuperación o podrán gastar tu HELIX.";
 
 /* No comment provided by engineer. */
 "DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "NO tome una captura de pantalla. Las capturas de pantalla son visibles para otras aplicaciones y dispositivos.";
@@ -249,7 +249,7 @@ balance: %2$@ (%3$@)";
 "INVALID" = "INVÁLIDO";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your HELIX address. Anyone can send PIV to your wallet by transferring them to your address." = "Permita que otros escaneen este código QR para obtener su dirección HELIX. Cualquiera puede enviar PIV a su billetera transfiriéndolas a su dirección.";
+"Let others scan this QR code to get your HELIX address. Anyone can send HLIX to your wallet by transferring them to your address." = "Permita que otros escaneen este código QR para obtener su dirección HELIX. Cualquiera puede enviar HLIX a su billetera transfiriéndolas a su dirección.";
 
 /* No comment provided by engineer. */
 "Local Currency" = "Moneda Local";
@@ -363,7 +363,7 @@ balance: %2$@ (%3$@)";
 "RECEIVE" = "RECIBIR";
 
 /* No comment provided by engineer. */
-"Receive PIV at this address: %@" = "Recibe PIV en esta dirección: %@";
+"Receive HLIX at this address: %@" = "Recibe HLIX en esta dirección: %@";
 
 /* No comment provided by engineer. */
 "received" = "recibido";
@@ -639,10 +639,10 @@ balance: %2$@ (%3$@)";
 "WRITE DOWN YOUR RECOVERY PHRASE" = "ESCRIBA SU FRASE DE RECUPERACIÓN";
 
 /* No comment provided by engineer. */
-"You can now buy PIV in HELIXwallet with cash or bank transfer." = "Ahora puedes comprar PIV en HELIXwallet con efectivo o transferencia bancaria.";
+"You can now buy HLIX in HELIXwallet with cash or bank transfer." = "Ahora puedes comprar HLIX en HELIXwallet con efectivo o transferencia bancaria.";
 
 /* No comment provided by engineer. */
-"You received PIV!" = "¡Has recibido HELIX!";
+"You received HLIX!" = "¡Has recibido HELIX!";
 
 /* No comment provided by engineer. */
 "Your wallet may be out of sync. This can often be fixed by rescanning the blockchain." = "Su billetera puede estar fuera de sincronización. Esto a menudo se puede arreglar al volver a escanear la cadena de bloques.";

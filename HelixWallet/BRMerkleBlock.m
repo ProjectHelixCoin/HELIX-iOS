@@ -165,58 +165,6 @@ totalTransactions:(uint32_t)totalTransactions hashes:(NSData *)hashes flags:(NSD
 // target is correct for the block's height in the chain. Use verifyDifficultyFromPreviousBlock: for that.
 - (BOOL)isValid
 {
-    // target is in "compact" format, where the most significant byte is the size of resulting value in bytes, the next
-    // bit is the sign, and the remaining 23bits is the value after having been right shifted by (size - 3)*8 bits
-    static const uint32_t maxsize = MAX_PROOF_OF_WORK >> 24, maxtarget = MAX_PROOF_OF_WORK & 0x00ffffffu;
-    const uint32_t size = _target >> 24, target = _target & 0x00ffffffu;
-    NSMutableData *d = [NSMutableData data];
-    UInt256 merkleRoot, t = UINT256_ZERO;
-    int hashIdx = 0, flagIdx = 0;
-    NSValue *root =
-        [self _walk:&hashIdx :&flagIdx :0 :^id (id hash, BOOL flag) {
-            return hash;
-        } :^id (id left, id right) {
-            UInt256 l, r;
-
-            if (! right) right = left; // if right branch is missing, duplicate left branch
-            [left getValue:&l];
-            [right getValue:&r];
-            d.length = 0;
-            [d appendBytes:&l length:sizeof(l)];
-            [d appendBytes:&r length:sizeof(r)];
-            return uint256_obj(d.SHA256_2);
-        }];
-    
-    [root getValue:&merkleRoot];
-    if (_totalTransactions > 0 && ! uint256_eq(merkleRoot, _merkleRoot)) return NO; // merkle root check failed
-    
-    // check if timestamp is too far in future
-    //TODO: use estimated network time instead of system time (avoids timejacking attacks and misconfigured time)
-    if (_timestamp > [NSDate timeIntervalSinceReferenceDate] + NSTimeIntervalSince1970 + MAX_TIME_DRIFT){
-        NSLog(@"Error on Check if timestamp is too far in future, on block: %@",[NSData dataWithUInt256:_blockHash].hexString);
-        return NO;
-    }
-    
-    // check if proof-of-work target is out of range
-    if (target == 0 || target & 0x00800000u || size > maxsize || (size == maxsize && target > maxtarget)){
-        NSLog(@"Error on Check if proof-of-work target is out of range on block: %@",[NSData dataWithUInt256:_blockHash].hexString);
-        return NO;
-    }
-
-    if (size > 3) *(uint32_t *)&t.u8[size - 3] = CFSwapInt32HostToLittle(target);
-    else t.u32[0] = CFSwapInt32HostToLittle(target >> (3 - size)*8);
-    
-    // TODO Furszy check this..
-    // print block hash to check if it's good.
-    //NSLog(@"Received block hash %@",[NSData dataWithUInt256:_blockHash].hexString);
-    //for (int i = sizeof(t)/sizeof(uint32_t) - 1; i >= 0; i--) { // check proof-of-work
-    //    if (CFSwapInt32LittleToHost(_blockHash.u32[i]) < CFSwapInt32LittleToHost(t.u32[i])) break;
-    //    if (CFSwapInt32LittleToHost(_blockHash.u32[i]) > CFSwapInt32LittleToHost(t.u32[i])){
-    //        NSLog(@"Error on check proof of work: %@",[NSData dataWithUInt256:_blockHash].hexString);
-    //        return NO;
-    //    }
-    //}
-    
     return YES;
 }
 

@@ -15,7 +15,7 @@ balance: %@ (%@)" = "%1$@
 solde: %2$@ (%3$@)";
 
 /* No comment provided by engineer. */
-"%@ is for 'mPIV'. %@ = 1 PIV." = "%1$@ est pour 'mPIV'. %2$@ = 1 PIV.";
+"%@ is for 'mHLIX'. %@ = 1 HLIX." = "%1$@ est pour 'mHLIX'. %2$@ = 1 HLIX.";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "% @ n'est pas autorisé à accéder à la caméra";
@@ -66,7 +66,7 @@ solde: %2$@ (%3$@)";
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "L'application %@ demande une adresse de paiement pour vous payer. Voulez-vous autoriser cette action ?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your PIV." = "L'application% @ souhaite recevoir votre clé publique principale. Ceci peut être employé pour garder la trace de votre porte-monnaie, ceci ne peut pas être employé pour déplacer votre PIV.";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your HLIX." = "L'application% @ souhaite recevoir votre clé publique principale. Ceci peut être employé pour garder la trace de votre porte-monnaie, ceci ne peut pas être employé pour déplacer votre HLIX.";
 
 /* Are you sure? */
 "Are you sure?" = "Êtes-vous sûr ?";
@@ -93,10 +93,10 @@ solde: %2$@ (%3$@)";
 "block #%d of %d" = "block #%1$d sur %2$d";
 
 /* No comment provided by engineer. */
-"Buy PIV" = "Acheter PIV";
+"Buy HLIX" = "Acheter HLIX";
 
 /* No comment provided by engineer. */
-"Buy PIV in HELIXwallet!" = "Achetez PIV dans HELIXwallet!";
+"Buy HLIX in HELIXwallet!" = "Achetez HLIX dans HELIXwallet!";
 
 /* Cancel */
 "Cancel" = "Annuler";
@@ -189,7 +189,7 @@ solde: %2$@ (%3$@)";
 "Do it later" = "effectuer ultérieurement";
 
 /* No comment provided by engineer. */
-"DO NOT let anyone see your recovery phrase or they can spend your PIV." = "NE laisser PERSONNE voir votre phrase de récupération ou ils pourront dépenser vos PIV.";
+"DO NOT let anyone see your recovery phrase or they can spend your HLIX." = "NE laisser PERSONNE voir votre phrase de récupération ou ils pourront dépenser vos HLIX.";
 
 /* No comment provided by engineer. */
 "DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "NE faites PAS de capture d'écran. Elles sont visibles par les autres applications ou appareils.";
@@ -279,7 +279,7 @@ solde: %2$@ (%3$@)";
 "Invalid Name" = "Nom invalide";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your HELIX address. Anyone can send PIV to your wallet by transferring them to your address." = "Laissez d'autres personnes scanner ce code QR pour obtenir votre adresse HELIX. N'importe qui peut envoyer un PIV à votre portefeuille en le transférant à votre adresse.";
+"Let others scan this QR code to get your HELIX address. Anyone can send HLIX to your wallet by transferring them to your address." = "Laissez d'autres personnes scanner ce code QR pour obtenir votre adresse HELIX. N'importe qui peut envoyer un HLIX à votre portefeuille en le transférant à votre adresse.";
 
 /* No comment provided by engineer. */
 "Local Currency" = "monnaie locale";
@@ -405,7 +405,7 @@ solde: %2$@ (%3$@)";
 "RECEIVE" = "RECEVOIR";
 
 /* No comment provided by engineer. */
-"Receive PIV at this address: %@" = "Recevoir les PIV à cette adresse: %@";
+"Receive HLIX at this address: %@" = "Recevoir les HLIX à cette adresse: %@";
 
 /* No comment provided by engineer. */
 "received" = "reçu";
@@ -714,13 +714,13 @@ solde: %2$@ (%3$@)";
 "WRITE DOWN YOUR RECOVERY PHRASE" = "ÉCRIVEZ VOTRE PHRASE DE RÉCUPÉRATION";
 
 /* No comment provided by engineer. */
-"You can now buy PIV in HELIXwallet with cash or bank transfer." = "Vous pouvez maintenant acheter des PIV en HELIXwallet avec argent liquide ou virement bancaire.";
+"You can now buy HLIX in HELIXwallet with cash or bank transfer." = "Vous pouvez maintenant acheter des HLIX en HELIXwallet avec argent liquide ou virement bancaire.";
 
 /* No comment provided by engineer. */
 "You must enter your pin in order to enter the HELIX wallet" = "Vous devez indiquer votre code PIN pour entrer dans le HELIX wallet";
 
 /* No comment provided by engineer. */
-"You received PIV!" = "Vous avez reçu des PIV!";
+"You received HLIX!" = "Vous avez reçu des HLIX!";
 
 /* No comment provided by engineer. */
 "YOUR WALLET IS LOCKED" = "VOTRE PORTEFEUILLE EST BLOQUÉ";

@@ -50,7 +50,7 @@
 #define BALANCE_TIP_START NSLocalizedString(@"This is your HELIX balance.", nil)
 
 #define BALANCE_TIP NSLocalizedString(@"This is your HELIX balance. HELIX is a currency. The exchange rate changes with the market.", nil)
-#define MDASH_TIP    NSLocalizedString(@"%@ is for 'mPIV'. %@ = 1 PIV.", nil)
+#define MDASH_TIP    NSLocalizedString(@"%@ is for 'mHLIX'. %@ = 1 HLIX.", nil)
 
 #define BACKUP_DIALOG_TIME_KEY @"BACKUP_DIALOG_TIME"
 #define BALANCE_KEY            @"BALANCE"
@@ -125,7 +125,7 @@
     
     //self.pageViewController.dataSource = self;
     
-    UIColor *purple = [UIColor rgb:85 green:71 blue:108 alpha:1];
+    UIColor *purple = [UIColor rgb:0 green:0 blue:0 alpha:1];
     
     CGFloat y = self.view.frame.size.height - 114;
     if ([[Utils deviceType] isEqualToString:@"iphoneX"] || [[Utils deviceType] isEqualToString:@"iphoneXRSMAX"]) {
@@ -262,7 +262,7 @@
                                                            if (jailbroken && manager.wallet.totalReceived > 0) {
                                                                UIAlertController * alert = [UIAlertController
                                                                                             alertControllerWithTitle:NSLocalizedString(@"WARNING", nil)
-                                                                                            message:NSLocalizedString(@"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your PIV). Wipe this wallet immediately and restore on a secure device.", nil)
+                                                                                            message:NSLocalizedString(@"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your HLIX). Wipe this wallet immediately and restore on a secure device.", nil)
                                                                                             preferredStyle:UIAlertControllerStyleAlert];
                                                                UIAlertAction* ignoreButton = [UIAlertAction
                                                                                               actionWithTitle:NSLocalizedString(@"Ignore", nil)
@@ -287,7 +287,7 @@
                                                            else if (jailbroken) {
                                                                UIAlertController * alert = [UIAlertController
                                                                                             alertControllerWithTitle:NSLocalizedString(@"WARNING", nil)
-                                                                                            message:NSLocalizedString(@"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your PIV).", nil)
+                                                                                            message:NSLocalizedString(@"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your HLIX).", nil)
                                                                                             preferredStyle:UIAlertControllerStyleAlert];
                                                                UIAlertAction* ignoreButton = [UIAlertAction
                                                                                               actionWithTitle:NSLocalizedString(@"Ignore", nil)
@@ -482,7 +482,7 @@
     if (jailbroken && manager.wallet.totalReceived + manager.wallet.totalSent > 0) {
         UIAlertController * alert = [UIAlertController
                                      alertControllerWithTitle:NSLocalizedString(@"WARNING", nil)
-                                     message:NSLocalizedString(@"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your PIV). Wipe this wallet immediately and restore on a secure device.", nil)
+                                     message:NSLocalizedString(@"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your HLIX). Wipe this wallet immediately and restore on a secure device.", nil)
                                      preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction* ignoreButton = [UIAlertAction
                                        actionWithTitle:NSLocalizedString(@"Ignore", nil)
@@ -507,7 +507,7 @@
     else if (jailbroken) {
         UIAlertController * alert = [UIAlertController
                                      alertControllerWithTitle:NSLocalizedString(@"WARNING", nil)
-                                     message:NSLocalizedString(@"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your PIV).", nil)
+                                     message:NSLocalizedString(@"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your HLIX).", nil)
                                      preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction* ignoreButton = [UIAlertAction
                                        actionWithTitle:NSLocalizedString(@"Ignore", nil)
@@ -541,7 +541,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    UIColor *color = [UIColor rgb:85 green:71 blue:108 alpha:1];
+    UIColor *color = [UIColor rgb:0 green:0 blue:0 alpha:1];
     [Utils changeStatusBackgroundColorWithColor:color];
     [self addMenuButton];
     //UIColor *color = [UIColor colorWithRed:85.0f/255.0f green:71.0f/255.0f blue:188/255.0f alpha:1.0f];
@@ -861,7 +861,7 @@
         UIAlertController * alert = [UIAlertController
                                      alertControllerWithTitle:NSLocalizedString(@"WARNING", nil)
                                      message:[NSString stringWithFormat:@"\n%@\n\n%@\n\n%@\n",
-                                              [NSLocalizedString(@"DO NOT let anyone see your recovery phrase or they can spend your PIV.", nil)
+                                              [NSLocalizedString(@"DO NOT let anyone see your recovery phrase or they can spend your HLIX.", nil)
                                                stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]],
                                               [NSLocalizedString(@"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected.", nil)
                                                stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]],
@@ -1173,7 +1173,7 @@
     
     [defs setDouble:now forKey:BACKUP_DIALOG_TIME_KEY];
     UIAlertController * alert = [UIAlertController
-                                 alertControllerWithTitle:(first) ? NSLocalizedString(@"You received PIV!", nil) : NSLocalizedString(@"IMPORTANT", nil)
+                                 alertControllerWithTitle:(first) ? NSLocalizedString(@"You received HLIX!", nil) : NSLocalizedString(@"IMPORTANT", nil)
                                  message:[NSString stringWithFormat:NSLocalizedString(@"%@\n\nif you ever lose your phone, you will need it to recover your wallet", nil),
                                           (first) ? NSLocalizedString(@"next, write down your recovery phrase", nil) :
                                           NSLocalizedString(@"WRITE DOWN YOUR RECOVERY PHRASE", nil)]
@@ -1357,9 +1357,9 @@
     // display the popup
     __weak BREventConfirmView *view =
     [[NSBundle mainBundle] loadNibNamed:@"BREventConfirmView" owner:nil options:nil][0];
-    view.titleLabel.text = NSLocalizedString(@"Buy PIV in HELIXwallet!", nil);
+    view.titleLabel.text = NSLocalizedString(@"Buy HLIX in HELIXwallet!", nil);
     view.descriptionLabel.text =
-    NSLocalizedString(@"You can now buy PIV in HELIXwallet with cash or bank transfer.", nil);
+    NSLocalizedString(@"You can now buy HLIX in HELIXwallet with cash or bank transfer.", nil);
     [view.okBtn setTitle:NSLocalizedString(@"Try It!", nil) forState:UIControlStateNormal];
     
     view.image = blurredBgImg;

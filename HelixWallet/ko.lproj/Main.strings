@@ -58,8 +58,8 @@
 /* Class = "UIButton"; normalTitle = "7"; ObjectID = "jcY-uc-kOc"; */
 "jcY-uc-kOc.normalTitle" = "7";
 
-/* Class = "UILabel"; text = "SEND PIV"; ObjectID = "l5l-JR-LKA"; */
-"l5l-JR-LKA.text" = "PIV 보내기";
+/* Class = "UILabel"; text = "SEND HLIX"; ObjectID = "l5l-JR-LKA"; */
+"l5l-JR-LKA.text" = "HLIX 보내기";
 
 /* Class = "UILabel"; text = "SwiftX"; ObjectID = "lbm-03-nu4"; */
 "lbm-03-nu4.text" = "SwiftX";

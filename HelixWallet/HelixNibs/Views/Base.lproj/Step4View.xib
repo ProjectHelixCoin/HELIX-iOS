@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -21,14 +19,14 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgStep4" translatesAutoresizingMaskIntoConstraints="NO" id="6Ud-uA-xTy">
-                    <rect key="frame" x="82" y="213.5" width="210" height="240"/>
+                    <rect key="frame" x="82.5" y="213.5" width="210" height="240"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="240" id="DI7-Om-ara"/>
                         <constraint firstAttribute="width" constant="210" id="JWp-kl-VeF"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRUSTED NODES FEDERATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9RG-nq-fSw">
-                    <rect key="frame" x="57" y="501.5" width="262.5" height="21"/>
+                    <rect key="frame" x="56.5" y="501.5" width="262.5" height="21"/>
                     <fontDescription key="fontDescription" name="ZillaSlab-Bold" family="Zilla Slab" pointSize="18"/>
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
@@ -40,7 +38,7 @@
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="0.33333333329999998" green="0.2784313725" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="9RG-nq-fSw" firstAttribute="centerX" secondItem="X7X-S6-Hor" secondAttribute="centerX" id="76B-D3-gPk"/>
                 <constraint firstItem="acG-Rs-tKE" firstAttribute="top" secondItem="9RG-nq-fSw" secondAttribute="bottom" constant="28" id="7ap-80-EIx"/>
@@ -50,9 +48,10 @@
                 <constraint firstItem="9RG-nq-fSw" firstAttribute="top" secondItem="6Ud-uA-xTy" secondAttribute="bottom" constant="48" id="ajF-yg-DhL"/>
                 <constraint firstAttribute="trailing" secondItem="acG-Rs-tKE" secondAttribute="trailing" constant="20" id="gun-rz-aDQ"/>
             </constraints>
+            <point key="canvasLocation" x="142" y="155"/>
         </view>
     </objects>
     <resources>
-        <image name="imgStep4" width="211" height="245"/>
+        <image name="imgStep4" width="211.5" height="245.5"/>
     </resources>
 </document>

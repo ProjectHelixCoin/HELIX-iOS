@@ -27,16 +27,16 @@
 
 
 #if DASH_TESTNET
-#define DASH_STANDARD_PORT          51474
+#define DASH_STANDARD_PORT          37417
 #else
-#define DASH_STANDARD_PORT          51472
+#define DASH_STANDARD_PORT          37415
 #endif
 
 #define BITCOIN_TIMEOUT_CODE  1001
 
 #define SERVICES_NODE_NETWORK 0x01 // services value indicating a node carries full blocks, not just headers
 #define SERVICES_NODE_BLOOM   0x04 // BIP111: https://github.com/bitcoin/bips/blob/master/bip-0111.mediawiki
-#define USER_AGENT            [NSString stringWithFormat:@"/HELIXwallet:%@/",\
+#define USER_AGENT            [NSString stringWithFormat:@"/Helix Core:%@/",\
                                NSBundle.mainBundle.infoDictionary[@"CFBundleShortVersionString"]]
 
 #define WEEK_TIME_INTERVAL 604800 //7*24*60*60

@@ -65,10 +65,10 @@
 "block #%d of %d" = "Block #%1$d von %2$d";
 
 /* No comment provided by engineer. */
-"Buy PIV" = "Kaufe PIV";
+"Buy HLIX" = "Kaufe HLIX";
 
 /* No comment provided by engineer. */
-"Buy PIV in HELIXwallet!" = "Kaufe PIV im HELIX Wallet!";
+"Buy HLIX in HELIXwallet!" = "Kaufe HLIX im HELIX Wallet!";
 
 /* Cancel */
 "Cancel" = "Abbrechen";
@@ -185,7 +185,7 @@
 "HELIX transaction not signed" = "HELIX Transaktion nicht signiert";
 
 /* No comment provided by engineer. */
-"Receive PIV at this address: %@" = "Erhalte PIV in dieser Adresse: %@";
+"Receive HLIX at this address: %@" = "Erhalte HLIX in dieser Adresse: %@";
 
 /* No comment provided by engineer. */
 "received" = "erhalten";

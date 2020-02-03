@@ -15,7 +15,7 @@ balance: %@ (%@)" = "%1$@
 saldi: %2$@ (%3$@)";
 
 /* No comment provided by engineer. */
-"%@ is for 'mPIV'. %@ = 1 PIV." = "%1$@ is voor 'mPIV'. %2$@ = 1 PIV.";
+"%@ is for 'mHLIX'. %@ = 1 HLIX." = "%1$@ is voor 'mHLIX'. %2$@ = 1 HLIX.";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ heeft geen toegang tot de camera";
@@ -66,7 +66,7 @@ saldi: %2$@ (%3$@)";
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "Applicatie %@ vraagt een adres zodat het je kan betalen. Wilt u dit toestaan?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your PIV." = "Applicatie %@ zou graag je Master Public Key ontvangen. Dit kan gebruikt worden om uw portemonnee bij te houden, dit kan niet gebruikt worden om uw PIV te verplaatsen.";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your HLIX." = "Applicatie %@ zou graag je Master Public Key ontvangen. Dit kan gebruikt worden om uw portemonnee bij te houden, dit kan niet gebruikt worden om uw HLIX te verplaatsen.";
 
 /* Are you sure? */
 "Are you sure?" = "Ben je zeker?";
@@ -93,10 +93,10 @@ saldi: %2$@ (%3$@)";
 "block #%d of %d" = "blok #%1$d van %2$d";
 
 /* No comment provided by engineer. */
-"Buy PIV" = "Koop PIV";
+"Buy HLIX" = "Koop HLIX";
 
 /* No comment provided by engineer. */
-"Buy PIV in HELIXwallet!" = "Koop PIV in HELIXwallet!";
+"Buy HLIX in HELIXwallet!" = "Koop HLIX in HELIXwallet!";
 
 /* Cancel */
 "Cancel" = "Annuleren";
@@ -189,7 +189,7 @@ saldi: %2$@ (%3$@)";
 "Do it later" = "Doe het later";
 
 /* No comment provided by engineer. */
-"DO NOT let anyone see your recovery phrase or they can spend your PIV." = "LAAT niemand uw herstel zin zien of ze kunnen uw HELIX uitgeven.";
+"DO NOT let anyone see your recovery phrase or they can spend your HLIX." = "LAAT niemand uw herstel zin zien of ze kunnen uw HELIX uitgeven.";
 
 /* No comment provided by engineer. */
 "DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "MAAK GEEN schermaafbeelding. Schermafbeeldingen zijn zichtbaar voor andere apps en apparaten.";
@@ -279,7 +279,7 @@ saldi: %2$@ (%3$@)";
 "Invalid Name" = "Ongeldige Naam";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your HELIX address. Anyone can send PIV to your wallet by transferring them to your address." = "Laat anderen deze QR code scannen om uw HELIX adres te krijgen. Iedereen kan HELIX naar je portemonnee versturen door ze naar je adres te versturen.";
+"Let others scan this QR code to get your HELIX address. Anyone can send HLIX to your wallet by transferring them to your address." = "Laat anderen deze QR code scannen om uw HELIX adres te krijgen. Iedereen kan HELIX naar je portemonnee versturen door ze naar je adres te versturen.";
 
 /* No comment provided by engineer. */
 "Local Currency" = "Lokale Valuta";
@@ -405,7 +405,7 @@ saldi: %2$@ (%3$@)";
 "RECEIVE" = "ONTVANG";
 
 /* No comment provided by engineer. */
-"Receive PIV at this address: %@" = "Ontvang PIV op dit adres: %@";
+"Receive HLIX at this address: %@" = "Ontvang HLIX op dit adres: %@";
 
 /* No comment provided by engineer. */
 "received" = "ontvangen";
@@ -714,13 +714,13 @@ saldi: %2$@ (%3$@)";
 "WRITE DOWN YOUR RECOVERY PHRASE" = "SCHRIJF JE HERSTELZIN OP";
 
 /* No comment provided by engineer. */
-"You can now buy PIV in HELIXwallet with cash or bank transfer." = "Je kan nu PIV kopen in HELIXwallet met cash of bankoverschrijving.";
+"You can now buy HLIX in HELIXwallet with cash or bank transfer." = "Je kan nu HLIX kopen in HELIXwallet met cash of bankoverschrijving.";
 
 /* No comment provided by engineer. */
 "You must enter your pin in order to enter the HELIX wallet" = "U moet uw pin invoeren om de HELIX wallet te betreden";
 
 /* No comment provided by engineer. */
-"You received PIV!" = "Je hebt PIV ontvangen!";
+"You received HLIX!" = "Je hebt HLIX ontvangen!";
 
 /* No comment provided by engineer. */
 "YOUR WALLET IS LOCKED" = "UW PORTEMONNEE IS VERGRENDELD";

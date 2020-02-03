@@ -104,7 +104,7 @@ static NSString *dateFormat(NSString *template)
 {
     [super viewWillAppear:animated];
     
-    //UIColor *color = [UIColor rgb:85 green:71 blue:108 alpha:1];
+    //UIColor *color = [UIColor rgb:0 green:0 blue:0 alpha:1];
     self.view.backgroundColor = UIColor.whiteColor;
     self.tableView.backgroundColor = UIColor.whiteColor;
     BRWalletManager *manager = [BRWalletManager sharedInstance];
@@ -466,9 +466,9 @@ static NSString *dateFormat(NSString *template)
 //    // display the popup
 //    __weak BREventConfirmView *view =
 //        [[NSBundle mainBundle] loadNibNamed:@"BREventConfirmView" owner:nil options:nil][0];
-//    view.titleLabel.text = NSLocalizedString(@"Buy PIV in HELIXwallet!", nil);
+//    view.titleLabel.text = NSLocalizedString(@"Buy HLIX in HELIXwallet!", nil);
 //    view.descriptionLabel.text =
-//        NSLocalizedString(@"You can now buy PIV in HELIXwallet with cash or bank transfer.", nil);
+//        NSLocalizedString(@"You can now buy HLIX in HELIXwallet with cash or bank transfer.", nil);
 //    [view.okBtn setTitle:NSLocalizedString(@"Try It!", nil) forState:UIControlStateNormal];
 //
 //    view.image = blurredBgImg;
@@ -650,7 +650,7 @@ static NSString *dateFormat(NSString *template)
             long adjustedRow = !buyEnabled ? indexPath.row + 1 : indexPath.row;
             switch (adjustedRow) {
                 case 0:
-                    cell.textLabel.text = NSLocalizedString(@"Buy PIV", nil);
+                    cell.textLabel.text = NSLocalizedString(@"Buy HLIX", nil);
                     cell.imageView.image = [UIImage imageNamed:@"dash-buy-blue-small"];
                     break;
                     

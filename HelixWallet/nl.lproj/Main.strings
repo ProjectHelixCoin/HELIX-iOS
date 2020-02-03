@@ -78,8 +78,8 @@ coinmarketcap.com";
 "JUG-Wq-6Lr.text" = "Geforked van breadwallet.
 Deze app is open source:";
 
-/* Class = "UILabel"; text = "SEND PIV"; ObjectID = "l5l-JR-LKA"; */
-"l5l-JR-LKA.text" = "VERZEND PIV";
+/* Class = "UILabel"; text = "SEND HLIX"; ObjectID = "l5l-JR-LKA"; */
+"l5l-JR-LKA.text" = "VERZEND HLIX";
 
 /* Class = "UILabel"; text = "SwiftX"; ObjectID = "lbm-03-nu4"; */
 "lbm-03-nu4.text" = "SwiftX";
@@ -93,8 +93,8 @@ Deze app is open source:";
 /* Class = "UINavigationItem"; title = "Phrase"; ObjectID = "pSA-60-Zeg"; */
 "pSA-60-Zeg.title" = "Zin";
 
-/* Class = "UILabel"; text = "Receive PIV"; ObjectID = "qel-3J-2VC"; */
-"qel-3J-2VC.text" = "Ontvang PIV";
+/* Class = "UILabel"; text = "Receive HLIX"; ObjectID = "qel-3J-2VC"; */
+"qel-3J-2VC.text" = "Ontvang HLIX";
 
 /* Class = "UIBarButtonItem"; title = "Remind me later"; ObjectID = "QQS-Me-RNh"; */
 "QQS-Me-RNh.title" = "Herinner me later";

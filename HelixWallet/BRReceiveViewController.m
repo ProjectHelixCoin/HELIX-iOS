@@ -36,7 +36,7 @@
 #import "BRWalletManager.h"
 #import <MobileCoreServices/UTCoreTypes.h>
 
-#define QR_TIP      NSLocalizedString(@"Let others scan this QR code to get your HELIX address. Anyone can send PIV to your wallet by transferring them to your address.", nil)
+#define QR_TIP      NSLocalizedString(@"Let others scan this QR code to get your HELIX address. Anyone can send HLIX to your wallet by transferring them to your address.", nil)
 #define ADDRESS_TIP NSLocalizedString(@"This is your HELIX address. Tap to copy it or send it by email or SMS. The address will change each time you receive funds, but old addresses always work.", nil)
 
 //#define QR_IMAGE_FILE [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).lastObject\
@@ -297,7 +297,7 @@
 
     BOOL req = (_paymentRequest) ? YES : NO;
 
-    UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:[NSString stringWithFormat:NSLocalizedString(@"Receive PIV at this address: %@", nil),
+    UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:[NSString stringWithFormat:NSLocalizedString(@"Receive HLIX at this address: %@", nil),
                                                                                   self.paymentAddress] message:@"" preferredStyle:UIAlertControllerStyleActionSheet];
     [actionSheet addAction:[UIAlertAction actionWithTitle:(req) ? NSLocalizedString(@"Copy request to clipboard", nil) :
                             NSLocalizedString(@"Copy address to clipboard", nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {

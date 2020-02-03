@@ -33,7 +33,7 @@ balance: %@ (%@)" = "%1$@
 "Application %@ is requesting a payment to" = "어플리케이션 %@ 는 지불을 요청중입니다.";
 
 /* No comment provided by engineer. */
-"Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = " 어플리케이션 %@ 는 당신의 PIV 수령 주소를 요청하고 있습니다. 이 권한을 부여 하시겠습니까?";
+"Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = " 어플리케이션 %@ 는 당신의 HLIX 수령 주소를 요청하고 있습니다. 이 권한을 부여 하시겠습니까?";
 
 /* No comment provided by engineer. */
 "bad payment request URL" = "잘못된 지불 요청 URL";
@@ -48,10 +48,10 @@ balance: %@ (%@)" = "%1$@
 "block #%d of %d" = "%2$d 중 %1$d 째 블록";
 
 /* No comment provided by engineer. */
-"Buy PIV" = "PIV 구입";
+"Buy HLIX" = "HLIX 구입";
 
 /* No comment provided by engineer. */
-"Buy PIV in HELIXwallet!" = "지갑내에서 PIV 구입";
+"Buy HLIX in HELIXwallet!" = "지갑내에서 HLIX 구입";
 
 /* Cancel */
 "Cancel" = "취소";
@@ -93,7 +93,7 @@ balance: %@ (%@)" = "%1$@
 "INVALID" = "*유효하지 않음*";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your HELIX address. Anyone can send PIV to your wallet by transferring them to your address." = "다른 사람들의 QR 코드를 스캔하여 HELIX 주소를 아실수 있습니다. 또한 누구든지 여러분의 PIV 주소를 알면 여러분에게 바로 PIV를 전송할수 있습니다.";
+"Let others scan this QR code to get your HELIX address. Anyone can send HLIX to your wallet by transferring them to your address." = "다른 사람들의 QR 코드를 스캔하여 HELIX 주소를 아실수 있습니다. 또한 누구든지 여러분의 HLIX 주소를 알면 여러분에게 바로 HLIX를 전송할수 있습니다.";
 
 /* No comment provided by engineer. */
 "minute" = "분";
@@ -153,7 +153,7 @@ balance: %@ (%@)" = "%1$@
 "HELIX transaction outputs can't be less than %@" = "HELIX 출금액이 %@ 보다 적을수는 없습니다.";
 
 /* No comment provided by engineer. */
-"Receive PIV at this address: %@" = "다음 주소로 PIV 받음: %@ ";
+"Receive HLIX at this address: %@" = "다음 주소로 HLIX 받음: %@ ";
 
 /* No comment provided by engineer. */
 "received" = "받음";
@@ -180,7 +180,7 @@ balance: %@ (%@)" = "%1$@
 "Screenshots are visible to other apps and devices. Generate a new recovery phrase and keep it secret." = "스크린샷은 다른 앱 및 기기에서 볼 수 있습니다. 새 복구구절을 생성하고 잘 관리해주시기 바랍니다.";
 
 /* No comment provided by engineer. */
-"Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "스크린 샷은 다른 앱 및 기기에서 볼 수 있습니다. 당신의 PIV가 위험합니다. 잔액을 다른 지갑으로 이체하십시오.";
+"Screenshots are visible to other apps and devices. Your funds are at risk. Transfer your balance to another wallet." = "스크린 샷은 다른 앱 및 기기에서 볼 수 있습니다. 당신의 HLIX가 위험합니다. 잔액을 다른 지갑으로 이체하십시오.";
 
 /* No comment provided by engineer. */
 "second" = "초";

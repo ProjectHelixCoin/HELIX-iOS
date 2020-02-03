@@ -3,7 +3,7 @@
 " and " = " and ";
 
 /* No comment provided by engineer. */
-"%@ is for 'mPIV'. %@ = 1 PIV." = "%1$@ is for 'mPIV'. %2$@ = 1 PIV.";
+"%@ is for 'mHLIX'. %@ = 1 HLIX." = "%1$@ is for 'mHLIX'. %2$@ = 1 HLIX.";
 
 /* No comment provided by engineer. */
 "%@ is not allowed to access the camera" = "%@ is not allowed to access the camera";
@@ -72,7 +72,7 @@
 "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?" = "Application %@ is requesting an address so it can pay you.  Would you like to authorize this?";
 
 /* No comment provided by engineer. */
-"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your PIV." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your PIV.";
+"Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your HLIX." = "Application %@ would like to receive your Master Public Key.  This can be used to keep track of your wallet, this can not be used to move your HLIX.";
 
 /* Are you sure? */
 "Are you sure?" = "Are you sure?";
@@ -99,10 +99,10 @@
 "block #%d of %d" = "block #%1$d of %2$d";
 
 /* No comment provided by engineer. */
-"Buy PIV" = "Buy PIV";
+"Buy HLIX" = "Buy HLIX";
 
 /* No comment provided by engineer. */
-"Buy PIV in HELIXwallet!" = "Buy PIV in HELIXwallet!";
+"Buy HLIX in HELIXwallet!" = "Buy HLIX in HELIXwallet!";
 
 /* Cancel */
 "Cancel" = "Cancel";
@@ -192,16 +192,16 @@
 "Description:" = "Description:";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your PIV)." = "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your PIV).";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your HLIX)." = "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your HLIX).";
 
 /* No comment provided by engineer. */
-"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your PIV). Wipe this wallet immediately and restore on a secure device." = "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your PIV). Wipe this wallet immediately and restore on a secure device.";
+"DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your HLIX). Wipe this wallet immediately and restore on a secure device." = "DEVICE SECURITY COMPROMISED\nAny 'jailbreak' app can access any other app's keychain data (and steal your HLIX). Wipe this wallet immediately and restore on a secure device.";
 
 /* No comment provided by engineer. */
 "Do it later" = "Do it later";
 
 /* No comment provided by engineer. */
-"DO NOT let anyone see your recovery phrase or they can spend your PIV." = "DO NOT let anyone see your recovery phrase or they can spend your PIV.";
+"DO NOT let anyone see your recovery phrase or they can spend your HLIX." = "DO NOT let anyone see your recovery phrase or they can spend your HLIX.";
 
 /* No comment provided by engineer. */
 "DO NOT take a screenshot. Screenshots are visible to other apps and devices." = "DO NOT take a screenshot. Screenshots are visible to other apps and devices.";
@@ -291,7 +291,7 @@
 "Invalid Name" = "Invalid Name";
 
 /* No comment provided by engineer. */
-"Let others scan this QR code to get your HELIX address. Anyone can send PIV to your wallet by transferring them to your address." = "Let others scan this QR code to get your HELIX address. Anyone can send PIV to your wallet by transferring them to your address.";
+"Let others scan this QR code to get your HELIX address. Anyone can send HLIX to your wallet by transferring them to your address." = "Let others scan this QR code to get your HELIX address. Anyone can send HLIX to your wallet by transferring them to your address.";
 
 /* No comment provided by engineer. */
 "Local Currency" = "Local Currency";
@@ -420,7 +420,7 @@
 "RECEIVE" = "RECEIVE";
 
 /* No comment provided by engineer. */
-"Receive PIV at this address: %@" = "Receive PIV at this address: %@";
+"Receive HLIX at this address: %@" = "Receive HLIX at this address: %@";
 
 /* No comment provided by engineer. */
 "Received" = "Received";
@@ -735,7 +735,7 @@
 "WRITE DOWN YOUR RECOVERY PHRASE" = "WRITE DOWN YOUR RECOVERY PHRASE";
 
 /* No comment provided by engineer. */
-"You can now buy PIV in HELIXwallet with cash or bank transfer." = "You can now buy PIV in HELIXwallet with cash or bank transfer.";
+"You can now buy HLIX in HELIXwallet with cash or bank transfer." = "You can now buy HLIX in HELIXwallet with cash or bank transfer.";
 
 /* You don't have any saved address yet */
 "You don't have any saved address yet" = "You don't have any saved address yet";
@@ -744,7 +744,7 @@
 "You must enter your pin in order to enter the HELIX wallet" = "You must enter your pin in order to enter the HELIX wallet";
 
 /* No comment provided by engineer. */
-"You received PIV!" = "You received PIV!";
+"You received HLIX!" = "You received HLIX!";
 
 /* No comment provided by engineer. */
 "YOUR WALLET IS LOCKED" = "YOUR WALLET IS LOCKED";

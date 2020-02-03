@@ -49,8 +49,8 @@
            withAttributedString:[NSAttributedString attributedStringWithAttachment:noKey]];
     
     [s replaceCharactersInRange:[s.string rangeOfString:@"WARNING"] withString:NSLocalizedString(@"WARNING", nil)];
-    [s replaceCharactersInRange:[s.string rangeOfString:@"\nDO NOT let anyone see your recovery\nphrase or they can spend your PIV.\n"]
-                     withString:NSLocalizedString(@"DO NOT let anyone see your recovery phrase or they can spend your PIV.", nil)];
+    [s replaceCharactersInRange:[s.string rangeOfString:@"\nDO NOT let anyone see your recovery\nphrase or they can spend your HLIX.\n"]
+                     withString:NSLocalizedString(@"DO NOT let anyone see your recovery phrase or they can spend your HLIX.", nil)];
     [s replaceCharactersInRange:[s.string rangeOfString:@"\nNEVER type your recovery phrase into\npassword managers or elsewhere.\nOther devices may be infected.\n"]
                      withString:NSLocalizedString(@"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected.", nil)];
     self.warningLabel.attributedText = s;
@@ -60,7 +60,7 @@
     [super viewWillAppear:animated];
     
     [self.navigationController setNavigationBarHidden:FALSE animated:FALSE];
-    UIColor *color = [UIColor rgb:85 green:71 blue:108 alpha:1];
+    UIColor *color = [UIColor rgb:0 green:0 blue:0 alpha:1];
     //UIColor *color = [UIColor colorWithRed:85.0f/255.0f green:71.0f/255.0f blue:188/255.0f alpha:1.0f];
     [[self.navigationController navigationBar] setTranslucent:FALSE];
     [[self.navigationController navigationBar] setShadowImage:[UIImage imageNamed:@""]];

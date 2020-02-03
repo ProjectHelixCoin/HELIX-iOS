@@ -66,7 +66,7 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    UIColor *color = [UIColor rgb:85 green:71 blue:108 alpha:1];
+    UIColor *color = [UIColor rgb:0 green:0 blue:0 alpha:1];
     [Utils changeStatusBackgroundColorWithColor:color];
     BRWalletManager *manager = [BRWalletManager sharedInstance];
 
@@ -582,7 +582,7 @@ _switch_cell:
     UIAlertController * alert = [UIAlertController
                                  alertControllerWithTitle:NSLocalizedString(@"WARNING", nil)
                                  message:[NSString stringWithFormat:@"\n%@\n\n%@\n\n%@\n",
-                                          [NSLocalizedString(@"DO NOT let anyone see your recovery phrase or they can spend your PIV.", nil)
+                                          [NSLocalizedString(@"DO NOT let anyone see your recovery phrase or they can spend your HLIX.", nil)
                                            stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]],
                                           [NSLocalizedString(@"NEVER type your recovery phrase into password managers or elsewhere. Other devices may be infected.", nil)
                                            stringByTrimmingCharactersInSet:[NSCharacterSet newlineCharacterSet]],
