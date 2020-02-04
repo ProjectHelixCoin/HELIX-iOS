@@ -62,20 +62,6 @@
                ReferencedContainer = "container:HelixWallet.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BA913BDD1BD57E4D005A7C0E"
-               BuildableName = "WatchApp.app"
-               BlueprintName = "WatchApp"
-               ReferencedContainer = "container:HelixWallet.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
