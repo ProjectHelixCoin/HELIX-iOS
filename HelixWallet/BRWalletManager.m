@@ -258,7 +258,12 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
                                       stringByReplacingCharactersInRange:[self.dashFormat.positiveFormat rangeOfString:@"#"]
                                       withString:@"-#"];
     self.dashFormat.currencyCode = @"HELIX";
-    self.dashFormat.currencySymbol = HELIX NARROW_NBSP;
+    if (@available(iOS 13.0, *)) {
+            self.dashFormat.currencySymbol = HELIX;
+        }
+        else {
+            self.dashFormat.currencySymbol = HELIX NARROW_NBSP;
+        }
     self.dashFormat.maximumFractionDigits = 8;
     self.dashFormat.minimumFractionDigits = 0; // iOS 8 bug, minimumFractionDigits now has to be set after currencySymbol
     self.dashFormat.maximum = @(MAX_MONEY/(int64_t)pow(10.0, self.dashFormat.maximumFractionDigits));
@@ -271,7 +276,11 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
                                                  stringByReplacingCharactersInRange:[self.dashFormat.positiveFormat rangeOfString:@"#"]
                                                  withString:@"-#"];
     self.dashSignificantFormat.currencyCode = @"HELIX";
-    self.dashSignificantFormat.currencySymbol = HELIX NARROW_NBSP;
+    if (@available(iOS 13.0, *)) {
+            self.dashSignificantFormat.currencySymbol = HELIX;
+        } else {
+            self.dashSignificantFormat.currencySymbol = HELIX NARROW_NBSP;
+        }
     self.dashSignificantFormat.usesSignificantDigits = TRUE;
     self.dashSignificantFormat.minimumSignificantDigits = 1;
     self.dashSignificantFormat.maximumSignificantDigits = 6;
@@ -287,7 +296,11 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
                                          stringByReplacingCharactersInRange:[self.bitcoinFormat.positiveFormat rangeOfString:@"#"]
                                          withString:@"-#"];
     self.bitcoinFormat.currencyCode = @"BTC";
-    self.bitcoinFormat.currencySymbol = BTC NARROW_NBSP;
+    if (@available(iOS 13.0, *)) {
+            self.bitcoinFormat.currencySymbol = BTC;
+        } else {
+            self.bitcoinFormat.currencySymbol = BTC NARROW_NBSP;
+        }
     self.bitcoinFormat.maximumFractionDigits = 8;
     self.bitcoinFormat.minimumFractionDigits = 0; // iOS 8 bug, minimumFractionDigits now has to be set after currencySymbol
     self.bitcoinFormat.maximum = @(MAX_MONEY/(int64_t)pow(10.0, self.bitcoinFormat.maximumFractionDigits));
@@ -325,8 +338,37 @@ typedef BOOL (^PinVerificationBlock)(NSString * _Nonnull currentPin,BRWalletMana
             }
         }
     }];
+
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(keyboardWillShow:)
+                                                     name:UIKeyboardWillShowNotification
+                                                   object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(keyboardWillHide:)
+                                                     name:UIKeyboardWillHideNotification
+                                                   object:nil];
+    
     if ([UIApplication sharedApplication].protectedDataAvailable) [self protectedInit];
     return self;
+}
+
+bool responder = false;
+
+-(void)keyboardWillShow:(NSNotification *)notification
+{
+    if ([self pinAlertControllerIsVisible] && responder) {
+        responder = false;
+        [_pinField performSelector:@selector(becomeFirstResponder) withObject:nil afterDelay:0];
+    }
+}
+
+-(void)keyboardWillHide:(NSNotification *)notification
+{
+    if ([self pinAlertControllerIsVisible]) {
+        responder = true;
+        if (_pinField)
+            [_pinField performSelector:@selector(becomeFirstResponder) withObject:nil afterDelay:0];
+    }
 }
 
 - (void)protectedInit
