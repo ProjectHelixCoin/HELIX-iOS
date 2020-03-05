@@ -153,7 +153,8 @@
 - (IBAction)done:(id)sender
 {
     [BREventManager saveEvent:@"scan:dismiss"];
-    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+//    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+    [self dismissViewControllerAnimated: YES completion: nil];
 }
 
 @end

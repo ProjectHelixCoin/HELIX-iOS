@@ -174,8 +174,12 @@
 +(NSAttributedString*)dashSymbolAttributedStringWithTintColor:(UIColor*)color forDashSymbolSize:(CGSize)dashSymbolSize {
     NSTextAttachment *dashSymbol = [[NSTextAttachment alloc] init];
     
-    dashSymbol.bounds = CGRectMake(0, 0, 0, 0);//dashSymbolSize.width, dashSymbolSize.height);
-    //dashSymbol.image = [[UIImage imageNamed:@""] imageWithTintColor:color];
+    dashSymbol.bounds = CGRectMake(0, 0, dashSymbolSize.width, dashSymbolSize.height);
+    if (@available(iOS 13.0, *)) {
+        dashSymbol.image = [[UIImage imageNamed:@"Dash-Light"] imageWithTintColor:color];
+    } else {
+        dashSymbol.image = [UIImage imageNamed:@"Dash-Light"];
+    }
     return [NSAttributedString attributedStringWithAttachment:dashSymbol];
 }
 

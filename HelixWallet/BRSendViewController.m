@@ -2075,7 +2075,7 @@ static NSString *sanitizeString(NSString *s)
 }
 
 // MARK: - UIViewControllerTransitioningDelegate
-
+/*
 - (id<UIViewControllerAnimatedTransitioning>)animationControllerForPresentedController:(UIViewController *)presented
                                                                   presentingController:(UIViewController *)presenting sourceController:(UIViewController *)source
 {
@@ -2086,5 +2086,5 @@ static NSString *sanitizeString(NSString *s)
 {
     return self;
 }
-
+*/
 @end
