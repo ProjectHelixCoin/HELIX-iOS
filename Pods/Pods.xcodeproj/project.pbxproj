@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3D838A2AA62F3A90F3BD706B144FFE11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5206D01ED51803B3006E012D55735A6D /* SlideMenuControllerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5DFD4920705FD2B5F172B899600B7 /* SlideMenuControllerSwift-dummy.m */; };
+		5206D01ED51803B3006E012D55735A6D /* SlideMenuControllerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4A5E02BDFE5664DD1BFA0FE047781 /* SlideMenuControllerSwift-dummy.m */; };
 		6CDE008B6DF688A74A5F2CBF68FCC955 /* Pods-helixwallet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFF4444EBBDEDCF57326501BFF58E9C3 /* Pods-helixwallet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E8171C487B56A64E40E5D704A90394E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8A96D9FEAC2E76455F01551AAA70B1CB /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0FB8723ADA1D33120B88791183019C /* SlideMenuController.swift */; };
+		8A96D9FEAC2E76455F01551AAA70B1CB /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D7FB2C903C35FC2B2F804B7E1B9470 /* SlideMenuController.swift */; };
 		A92A00CABB181A9FAF0FFE482FE95D52 /* Pods-helixwallet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 596893F04F46C18339DD31C55B49ECFD /* Pods-helixwallet-dummy.m */; };
-		EAA9B996D6DA48A3605FCBBB52A11808 /* SlideMenuControllerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B314293AABAB3AE04B08815E38BA9D5 /* SlideMenuControllerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA9B996D6DA48A3605FCBBB52A11808 /* SlideMenuControllerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0183FD45867F078CF59EC05E17F1BBA8 /* SlideMenuControllerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,26 +27,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0183FD45867F078CF59EC05E17F1BBA8 /* SlideMenuControllerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-umbrella.h"; sourceTree = "<group>"; };
 		1C6694B6B4F191D0E41EEF1AB9A33FD8 /* Pods-helixwallet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-helixwallet.modulemap"; sourceTree = "<group>"; };
 		1DF9143F33342044ADB82C10FC709E4D /* Pods-helixwallet-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-helixwallet-acknowledgements.plist"; sourceTree = "<group>"; };
-		1FCDDC84B020C6CF3D18E729FDAE7860 /* SlideMenuControllerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SlideMenuControllerSwift-Info.plist"; sourceTree = "<group>"; };
-		30CAD13A198E8269131C3F9BC81DC4B8 /* SlideMenuControllerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlideMenuControllerSwift.xcconfig; sourceTree = "<group>"; };
+		2235A04BB5BE0E24BF933DDE3728BC9E /* SlideMenuControllerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SlideMenuControllerSwift.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3312EF8B3763BAC71C40EC069809E6F8 /* Pods-helixwallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-helixwallet.release.xcconfig"; sourceTree = "<group>"; };
 		405F9561347E7DCDC167E753051AC774 /* Pods-helixwallet-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-helixwallet-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4F22487B80197B193BD914A9F64A74A3 /* SlideMenuControllerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-prefix.pch"; sourceTree = "<group>"; };
+		40D7FB2C903C35FC2B2F804B7E1B9470 /* SlideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideMenuController.swift; path = Source/SlideMenuController.swift; sourceTree = "<group>"; };
 		596893F04F46C18339DD31C55B49ECFD /* Pods-helixwallet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-helixwallet-dummy.m"; sourceTree = "<group>"; };
-		5B314293AABAB3AE04B08815E38BA9D5 /* SlideMenuControllerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-umbrella.h"; sourceTree = "<group>"; };
+		6CB4A5E02BDFE5664DD1BFA0FE047781 /* SlideMenuControllerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlideMenuControllerSwift-dummy.m"; sourceTree = "<group>"; };
+		6F56CF886DAFBBB651CC3404973C8EEA /* SlideMenuControllerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlideMenuControllerSwift.debug.xcconfig; sourceTree = "<group>"; };
 		787E2E213A98DFC79D4849A610D1B0F4 /* Pods-helixwallet.testnet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-helixwallet.testnet.xcconfig"; sourceTree = "<group>"; };
-		8BF5DFD4920705FD2B5F172B899600B7 /* SlideMenuControllerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlideMenuControllerSwift-dummy.m"; sourceTree = "<group>"; };
 		9C1A8232861208267C96C46A2CF32D63 /* Pods-helixwallet.testflight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-helixwallet.testflight.xcconfig"; sourceTree = "<group>"; };
-		9C36678A8923EE37F55A7E64DA326DD5 /* SlideMenuControllerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SlideMenuControllerSwift.modulemap; sourceTree = "<group>"; };
+		9C86DF31002469AE5A94CBB8E74394BA /* SlideMenuControllerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlideMenuControllerSwift-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE29FABEF5993D83659385E079370E5 /* SlideMenuControllerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SlideMenuControllerSwift-Info.plist"; sourceTree = "<group>"; };
 		9FAEC9EF572EB781D26638A028E3FE1C /* Pods-helixwallet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-helixwallet-Info.plist"; sourceTree = "<group>"; };
 		A69499B882830CD01ABE06E724F39FDB /* Pods_helixwallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_helixwallet.framework; path = "Pods-helixwallet.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3D52B90DA35D0F7E1B931F0514B7B2 /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlideMenuControllerSwift.framework; path = SlideMenuControllerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF4444EBBDEDCF57326501BFF58E9C3 /* Pods-helixwallet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-helixwallet-umbrella.h"; sourceTree = "<group>"; };
-		CA0FB8723ADA1D33120B88791183019C /* SlideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideMenuController.swift; path = Source/SlideMenuController.swift; sourceTree = "<group>"; };
+		C8594B8F9565E272FD131707AFA6D895 /* SlideMenuControllerSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlideMenuControllerSwift.release.xcconfig; sourceTree = "<group>"; };
 		E09064B28EAA8A27DCBF6EE35807A76B /* Pods-helixwallet-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-helixwallet-frameworks.sh"; sourceTree = "<group>"; };
 		FA2500C9D18E23BB772DF2DB0299A692 /* Pods-helixwallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-helixwallet.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,24 +72,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		291C54CC6CD3029D13FF83EA6DC76471 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9C36678A8923EE37F55A7E64DA326DD5 /* SlideMenuControllerSwift.modulemap */,
-				30CAD13A198E8269131C3F9BC81DC4B8 /* SlideMenuControllerSwift.xcconfig */,
-				8BF5DFD4920705FD2B5F172B899600B7 /* SlideMenuControllerSwift-dummy.m */,
-				1FCDDC84B020C6CF3D18E729FDAE7860 /* SlideMenuControllerSwift-Info.plist */,
-				4F22487B80197B193BD914A9F64A74A3 /* SlideMenuControllerSwift-prefix.pch */,
-				5B314293AABAB3AE04B08815E38BA9D5 /* SlideMenuControllerSwift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SlideMenuControllerSwift";
-			sourceTree = "<group>";
-		};
 		35EA5495E8F13262EB16700D80AA2391 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BF994AD3D849D803A2DA83783B908C57 /* SlideMenuControllerSwift */,
+				7FBA5AEFCB36EE8C7BD937B73B7D2057 /* SlideMenuControllerSwift */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -102,6 +89,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		6B7EC7F2FF59585207FDE396E6AF7492 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2235A04BB5BE0E24BF933DDE3728BC9E /* SlideMenuControllerSwift.modulemap */,
+				6CB4A5E02BDFE5664DD1BFA0FE047781 /* SlideMenuControllerSwift-dummy.m */,
+				9DE29FABEF5993D83659385E079370E5 /* SlideMenuControllerSwift-Info.plist */,
+				9C86DF31002469AE5A94CBB8E74394BA /* SlideMenuControllerSwift-prefix.pch */,
+				0183FD45867F078CF59EC05E17F1BBA8 /* SlideMenuControllerSwift-umbrella.h */,
+				6F56CF886DAFBBB651CC3404973C8EEA /* SlideMenuControllerSwift.debug.xcconfig */,
+				C8594B8F9565E272FD131707AFA6D895 /* SlideMenuControllerSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SlideMenuControllerSwift";
+			sourceTree = "<group>";
+		};
 		6C1792E5C88F8D4121FB8B155D53651C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,11 +112,11 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BF994AD3D849D803A2DA83783B908C57 /* SlideMenuControllerSwift */ = {
+		7FBA5AEFCB36EE8C7BD937B73B7D2057 /* SlideMenuControllerSwift */ = {
 			isa = PBXGroup;
 			children = (
-				CA0FB8723ADA1D33120B88791183019C /* SlideMenuController.swift */,
-				291C54CC6CD3029D13FF83EA6DC76471 /* Support Files */,
+				40D7FB2C903C35FC2B2F804B7E1B9470 /* SlideMenuController.swift */,
+				6B7EC7F2FF59585207FDE396E6AF7492 /* Support Files */,
 			);
 			name = SlideMenuControllerSwift;
 			path = SlideMenuControllerSwift;
@@ -300,37 +302,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		080F7CA8FF39A39C0F1C64C80B96D8D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30CAD13A198E8269131C3F9BC81DC4B8 /* SlideMenuControllerSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
-				PRODUCT_MODULE_NAME = SlideMenuControllerSwift;
-				PRODUCT_NAME = SlideMenuControllerSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -430,38 +401,6 @@
 			};
 			name = Testflight;
 		};
-		2F3134B350BD293CF19C64F556CFE96F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30CAD13A198E8269131C3F9BC81DC4B8 /* SlideMenuControllerSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
-				PRODUCT_MODULE_NAME = SlideMenuControllerSwift;
-				PRODUCT_NAME = SlideMenuControllerSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		393A0217D303EC8F7B1CB93454B7F6BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA2500C9D18E23BB772DF2DB0299A692 /* Pods-helixwallet.debug.xcconfig */;
@@ -556,38 +495,6 @@
 			};
 			name = Testnet;
 		};
-		57F2A1B50A264D897F39D75A40DC411C /* Testnet */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30CAD13A198E8269131C3F9BC81DC4B8 /* SlideMenuControllerSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
-				PRODUCT_MODULE_NAME = SlideMenuControllerSwift;
-				PRODUCT_NAME = SlideMenuControllerSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Testnet;
-		};
 		875FEB4DCB44326F30B919A0A66C81DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3312EF8B3763BAC71C40EC069809E6F8 /* Pods-helixwallet.release.xcconfig */;
@@ -622,6 +529,69 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8F7A64C714954BBD1F4962740FFC4DA5 /* Testflight */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8594B8F9565E272FD131707AFA6D895 /* SlideMenuControllerSwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				PRODUCT_MODULE_NAME = SlideMenuControllerSwift;
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Testflight;
+		};
+		A315E4B7D6619E8C1813EE8536EC89E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F56CF886DAFBBB651CC3404973C8EEA /* SlideMenuControllerSwift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				PRODUCT_MODULE_NAME = SlideMenuControllerSwift;
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -683,9 +653,9 @@
 			};
 			name = Release;
 		};
-		E68B8F978895580C39147C56E44930B6 /* Testflight */ = {
+		B9D6B08EB18921F5DB0C4F4BB2992A6A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30CAD13A198E8269131C3F9BC81DC4B8 /* SlideMenuControllerSwift.xcconfig */;
+			baseConfigurationReference = C8594B8F9565E272FD131707AFA6D895 /* SlideMenuControllerSwift.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -713,7 +683,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Testflight;
+			name = Release;
 		};
 		ED1095711AB05E59C5421E36DE2D8C69 /* Testflight */ = {
 			isa = XCBuildConfiguration;
@@ -775,6 +745,38 @@
 			};
 			name = Testflight;
 		};
+		F5C5EB5B57528E17A5FF64AC37D472F6 /* Testnet */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8594B8F9565E272FD131707AFA6D895 /* SlideMenuControllerSwift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlideMenuControllerSwift/SlideMenuControllerSwift.modulemap";
+				PRODUCT_MODULE_NAME = SlideMenuControllerSwift;
+				PRODUCT_NAME = SlideMenuControllerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Testnet;
+		};
 		FB2D43D9B97EDD1BF4790E5F2766C495 /* Testnet */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 787E2E213A98DFC79D4849A610D1B0F4 /* Pods-helixwallet.testnet.xcconfig */;
@@ -827,10 +829,10 @@
 		A53000C965BF9C0AFDB3D937B087DF7B /* Build configuration list for PBXNativeTarget "SlideMenuControllerSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				080F7CA8FF39A39C0F1C64C80B96D8D7 /* Debug */,
-				2F3134B350BD293CF19C64F556CFE96F /* Release */,
-				E68B8F978895580C39147C56E44930B6 /* Testflight */,
-				57F2A1B50A264D897F39D75A40DC411C /* Testnet */,
+				A315E4B7D6619E8C1813EE8536EC89E3 /* Debug */,
+				B9D6B08EB18921F5DB0C4F4BB2992A6A /* Release */,
+				8F7A64C714954BBD1F4962740FFC4DA5 /* Testflight */,
+				F5C5EB5B57528E17A5FF64AC37D472F6 /* Testnet */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
