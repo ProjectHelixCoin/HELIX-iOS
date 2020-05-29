@@ -72,7 +72,7 @@ static const struct { uint32_t height; const char *hash; uint32_t timestamp; uin
 
 static const char *dns_seeds[] = {
     "crazyseeder.helix-crypto.com",
-    "173.212.198.12",
+    "149.202.70.135",
     "seed1.helix-crypto.com",
     "seed2.helix-crypto.com",
     "seed3.helix-crypto.com",
