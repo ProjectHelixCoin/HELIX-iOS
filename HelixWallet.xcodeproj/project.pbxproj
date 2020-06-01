@@ -233,6 +233,11 @@
 
 /* Begin PBXFileReference section */
 		017F1FD33D08A0ADF224456B /* Pods-helixwallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-helixwallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-helixwallet/Pods-helixwallet.debug.xcconfig"; sourceTree = "<group>"; };
+		04BD5ED2248446110060260C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/BIP39Words.plist; sourceTree = "<group>"; };
+		04BD5ED32484461A0060260C /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = nl; path = nl.lproj/BIP39Words.plist; sourceTree = "<group>"; };
+		04BD5ED42484462D0060260C /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = de.lproj/BIP39Words.plist; sourceTree = "<group>"; };
+		04BD5ED52484462E0060260C /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ko; path = ko.lproj/BIP39Words.plist; sourceTree = "<group>"; };
+		04BD5ED62484462F0060260C /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pl; path = pl.lproj/BIP39Words.plist; sourceTree = "<group>"; };
 		220128D11C753C670001CAC1 /* BRSocketHelpers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BRSocketHelpers.c; sourceTree = "<group>"; };
 		220128D21C753C670001CAC1 /* BRSocketHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSocketHelpers.h; sourceTree = "<group>"; };
 		2204604C1B9F61E600D07B61 /* BREventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BREventManager.h; sourceTree = "<group>"; };
@@ -1796,6 +1801,11 @@
 			children = (
 				75C0E3C71B1D333F007BC531 /* en */,
 				75C0E3C41B1BA2A5007BC531 /* es */,
+				04BD5ED2248446110060260C /* fr */,
+				04BD5ED32484461A0060260C /* nl */,
+				04BD5ED42484462D0060260C /* de */,
+				04BD5ED52484462E0060260C /* ko */,
+				04BD5ED62484462F0060260C /* pl */,
 			);
 			name = BIP39Words.plist;
 			sourceTree = "<group>";
